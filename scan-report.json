@@ -18,10 +18,10 @@
         "--url": true
       },
       "notice": "Generated with ScanCode and provided on an \"AS IS\" BASIS, WITHOUT WARRANTIES\nOR CONDITIONS OF ANY KIND, either express or implied. No content created from\nScanCode should be considered or used as legal advice. Consult an Attorney\nfor any legal advice.\nScanCode is a free software code scanning tool from nexB Inc. and others.\nVisit https://github.com/nexB/scancode-toolkit/ for support and download.",
-      "start_timestamp": "2026-10-08T142414.141824",
-      "end_timestamp": "2026-10-08T142634.756435",
+      "start_timestamp": "2026-10-29T053950.907920",
+      "end_timestamp": "2026-10-29T054012.043032",
       "output_format_version": "4.1.0",
-      "duration": 140.61464071273804,
+      "duration": 21.135128498077393,
       "message": null,
       "errors": [],
       "warnings": [],
@@ -207,19 +207,19 @@
             {
               "license_expression": "apache-2.0",
               "license_expression_spdx": "Apache-2.0",
-              "from_file": "commons-cli-1.11.0-src/LICENSE.txt",
-              "start_line": 1,
-              "end_line": 201,
-              "matcher": "1-hash",
+              "from_file": "commons-cli-1.11.0-src/pom.xml",
+              "start_line": 3,
+              "end_line": 16,
+              "matcher": "2-aho",
               "score": 100.0,
-              "matched_length": 1584,
+              "matched_length": 119,
               "match_coverage": 100.0,
               "rule_relevance": 100,
-              "rule_identifier": "apache-2.0_1330.RULE",
-              "rule_url": "https://github.com/nexB/scancode-toolkit/tree/develop/src/licensedcode/data/rules/apache-2.0_1330.RULE"
+              "rule_identifier": "apache-2.0_663.RULE",
+              "rule_url": "https://github.com/nexB/scancode-toolkit/tree/develop/src/licensedcode/data/rules/apache-2.0_663.RULE"
             }
           ],
-          "identifier": "apache_2_0-e9b9f486-4e13-6aa3-6fa1-08b43bb29954"
+          "identifier": "apache_2_0-eb6b5ae0-4f88-4e9b-d67c-c6c8e733b1cd"
         }
       ],
       "other_license_expression": null,
@@ -236,7 +236,7 @@
       "repository_homepage_url": "https://repo1.maven.org/maven2/commons-cli/commons-cli/1.11.0/",
       "repository_download_url": "https://repo1.maven.org/maven2/commons-cli/commons-cli/1.11.0/commons-cli-1.11.0.jar",
       "api_data_url": "https://repo1.maven.org/maven2/commons-cli/commons-cli/1.11.0/commons-cli-1.11.0.pom",
-      "package_uid": "pkg:maven/commons-cli/commons-cli@1.11.0?uuid=b9deee21-2198-4b9e-9797-00568ad8544e",
+      "package_uid": "pkg:maven/commons-cli/commons-cli@1.11.0?uuid=23b3e4d2-f5b0-42f8-b5a2-d1568c22b67b",
       "datafile_paths": [
         "commons-cli-1.11.0-src/pom.xml"
       ],
@@ -257,8 +257,8 @@
       "is_direct": true,
       "resolved_package": {},
       "extra_data": {},
-      "dependency_uid": "pkg:maven/org.junit.jupiter/junit-jupiter-api?uuid=88f6fe6d-d9b0-4f76-82f7-604b2d2e76d3",
-      "for_package_uid": "pkg:maven/commons-cli/commons-cli@1.11.0?uuid=b9deee21-2198-4b9e-9797-00568ad8544e",
+      "dependency_uid": "pkg:maven/org.junit.jupiter/junit-jupiter-api?uuid=a57f4508-6178-4398-9a5c-5312d5adfd13",
+      "for_package_uid": "pkg:maven/commons-cli/commons-cli@1.11.0?uuid=23b3e4d2-f5b0-42f8-b5a2-d1568c22b67b",
       "datafile_path": "commons-cli-1.11.0-src/pom.xml",
       "datasource_id": "maven_pom"
     },
@@ -272,8 +272,8 @@
       "is_direct": true,
       "resolved_package": {},
       "extra_data": {},
-      "dependency_uid": "pkg:maven/org.junit.jupiter/junit-jupiter-engine?uuid=376a1825-8f3f-477a-a6ce-76301839094e",
-      "for_package_uid": "pkg:maven/commons-cli/commons-cli@1.11.0?uuid=b9deee21-2198-4b9e-9797-00568ad8544e",
+      "dependency_uid": "pkg:maven/org.junit.jupiter/junit-jupiter-engine?uuid=b079d960-5818-4d9f-abe0-d7a6cc55becf",
+      "for_package_uid": "pkg:maven/commons-cli/commons-cli@1.11.0?uuid=23b3e4d2-f5b0-42f8-b5a2-d1568c22b67b",
       "datafile_path": "commons-cli-1.11.0-src/pom.xml",
       "datasource_id": "maven_pom"
     },
@@ -287,8 +287,8 @@
       "is_direct": true,
       "resolved_package": {},
       "extra_data": {},
-      "dependency_uid": "pkg:maven/org.junit.jupiter/junit-jupiter-params?uuid=6156b800-9af8-4249-ac9e-0d1edb206282",
-      "for_package_uid": "pkg:maven/commons-cli/commons-cli@1.11.0?uuid=b9deee21-2198-4b9e-9797-00568ad8544e",
+      "dependency_uid": "pkg:maven/org.junit.jupiter/junit-jupiter-params?uuid=66d7ea4b-130d-4a4f-a633-acc686c76341",
+      "for_package_uid": "pkg:maven/commons-cli/commons-cli@1.11.0?uuid=23b3e4d2-f5b0-42f8-b5a2-d1568c22b67b",
       "datafile_path": "commons-cli-1.11.0-src/pom.xml",
       "datasource_id": "maven_pom"
     },
@@ -302,8 +302,8 @@
       "is_direct": true,
       "resolved_package": {},
       "extra_data": {},
-      "dependency_uid": "pkg:maven/org.junit-pioneer/junit-pioneer?uuid=c939387e-a5bb-4551-a2aa-29f05e4f9530",
-      "for_package_uid": "pkg:maven/commons-cli/commons-cli@1.11.0?uuid=b9deee21-2198-4b9e-9797-00568ad8544e",
+      "dependency_uid": "pkg:maven/org.junit-pioneer/junit-pioneer?uuid=bdbf9c95-007e-4b55-a147-fd216d44626e",
+      "for_package_uid": "pkg:maven/commons-cli/commons-cli@1.11.0?uuid=23b3e4d2-f5b0-42f8-b5a2-d1568c22b67b",
       "datafile_path": "commons-cli-1.11.0-src/pom.xml",
       "datasource_id": "maven_pom"
     },
@@ -317,8 +317,8 @@
       "is_direct": true,
       "resolved_package": {},
       "extra_data": {},
-      "dependency_uid": "pkg:maven/commons-io/commons-io@2.21.0?uuid=58ed2ef5-805b-4dfc-8d4a-f96d9d975131",
-      "for_package_uid": "pkg:maven/commons-cli/commons-cli@1.11.0?uuid=b9deee21-2198-4b9e-9797-00568ad8544e",
+      "dependency_uid": "pkg:maven/commons-io/commons-io@2.21.0?uuid=91509862-5c27-42d1-9228-76d39a29a02e",
+      "for_package_uid": "pkg:maven/commons-cli/commons-cli@1.11.0?uuid=23b3e4d2-f5b0-42f8-b5a2-d1568c22b67b",
       "datafile_path": "commons-cli-1.11.0-src/pom.xml",
       "datasource_id": "maven_pom"
     },
@@ -332,8 +332,8 @@
       "is_direct": true,
       "resolved_package": {},
       "extra_data": {},
-      "dependency_uid": "pkg:maven/org.apache.commons/commons-text@1.14.0?uuid=35ca381a-22ea-40d4-b028-ec919e4c7acc",
-      "for_package_uid": "pkg:maven/commons-cli/commons-cli@1.11.0?uuid=b9deee21-2198-4b9e-9797-00568ad8544e",
+      "dependency_uid": "pkg:maven/org.apache.commons/commons-text@1.14.0?uuid=a8f892f0-6935-4d54-bff2-ece4471fdf9b",
+      "for_package_uid": "pkg:maven/commons-cli/commons-cli@1.11.0?uuid=23b3e4d2-f5b0-42f8-b5a2-d1568c22b67b",
       "datafile_path": "commons-cli-1.11.0-src/pom.xml",
       "datasource_id": "maven_pom"
     },
@@ -347,8 +347,8 @@
       "is_direct": true,
       "resolved_package": {},
       "extra_data": {},
-      "dependency_uid": "pkg:maven/org.mockito/mockito-core?uuid=7183dc02-02d9-4d56-97ea-778cc57cf7d9",
-      "for_package_uid": "pkg:maven/commons-cli/commons-cli@1.11.0?uuid=b9deee21-2198-4b9e-9797-00568ad8544e",
+      "dependency_uid": "pkg:maven/org.mockito/mockito-core?uuid=8fe8beb2-eb3d-408e-989b-d252c3e07844",
+      "for_package_uid": "pkg:maven/commons-cli/commons-cli@1.11.0?uuid=23b3e4d2-f5b0-42f8-b5a2-d1568c22b67b",
       "datafile_path": "commons-cli-1.11.0-src/pom.xml",
       "datasource_id": "maven_pom"
     }
@@ -358,14 +358,14 @@
       "identifier": "apache_2_0-eb6b5ae0-4f88-4e9b-d67c-c6c8e733b1cd",
       "license_expression": "apache-2.0",
       "license_expression_spdx": "Apache-2.0",
-      "detection_count": 115,
+      "detection_count": 121,
       "reference_matches": [
         {
           "license_expression": "apache-2.0",
           "license_expression_spdx": "Apache-2.0",
-          "from_file": "commons-cli-1.11.0-src/src/changes/changes.xml",
-          "start_line": 3,
-          "end_line": 16,
+          "from_file": "commons-cli-1.11.0-src/CONTRIBUTING.md",
+          "start_line": 2,
+          "end_line": 15,
           "matcher": "2-aho",
           "score": 100.0,
           "matched_length": 119,
@@ -373,28 +373,6 @@
           "rule_relevance": 100,
           "rule_identifier": "apache-2.0_663.RULE",
           "rule_url": "https://github.com/nexB/scancode-toolkit/tree/develop/src/licensedcode/data/rules/apache-2.0_663.RULE"
-        }
-      ]
-    },
-    {
-      "identifier": "apache_2_0-e9b9f486-4e13-6aa3-6fa1-08b43bb29954",
-      "license_expression": "apache-2.0",
-      "license_expression_spdx": "Apache-2.0",
-      "detection_count": 2,
-      "reference_matches": [
-        {
-          "license_expression": "apache-2.0",
-          "license_expression_spdx": "Apache-2.0",
-          "from_file": "commons-cli-1.11.0-src/LICENSE.txt",
-          "start_line": 1,
-          "end_line": 201,
-          "matcher": "1-hash",
-          "score": 100.0,
-          "matched_length": 1584,
-          "match_coverage": 100.0,
-          "rule_relevance": 100,
-          "rule_identifier": "apache-2.0_1330.RULE",
-          "rule_url": "https://github.com/nexB/scancode-toolkit/tree/develop/src/licensedcode/data/rules/apache-2.0_1330.RULE"
         }
       ]
     },
@@ -417,6 +395,202 @@
           "rule_relevance": 100,
           "rule_identifier": "apache-2.0_626.RULE",
           "rule_url": "https://github.com/nexB/scancode-toolkit/tree/develop/src/licensedcode/data/rules/apache-2.0_626.RULE"
+        }
+      ]
+    },
+    {
+      "identifier": "apache_2_0-452bc3fe-e365-2d3d-83b5-e5014e776596",
+      "license_expression": "apache-2.0",
+      "license_expression_spdx": "Apache-2.0",
+      "detection_count": 1,
+      "reference_matches": [
+        {
+          "license_expression": "apache-2.0",
+          "license_expression_spdx": "Apache-2.0",
+          "from_file": "commons-cli-1.11.0-src/NOTICE.txt",
+          "start_line": 4,
+          "end_line": 5,
+          "matcher": "2-aho",
+          "score": 95.0,
+          "matched_length": 14,
+          "match_coverage": 100.0,
+          "rule_relevance": 95,
+          "rule_identifier": "apache-2.0_product_includes_1.RULE",
+          "rule_url": "https://github.com/nexB/scancode-toolkit/tree/develop/src/licensedcode/data/rules/apache-2.0_product_includes_1.RULE"
+        }
+      ]
+    },
+    {
+      "identifier": "apache_2_0-c3c452de-aa34-eb66-9712-f4708f1f535a",
+      "license_expression": "apache-2.0",
+      "license_expression_spdx": "Apache-2.0",
+      "detection_count": 1,
+      "reference_matches": [
+        {
+          "license_expression": "apache-2.0",
+          "license_expression_spdx": "Apache-2.0",
+          "from_file": "commons-cli-1.11.0-src/CONTRIBUTING.md",
+          "start_line": 115,
+          "end_line": 115,
+          "matcher": "2-aho",
+          "score": 95.0,
+          "matched_length": 5,
+          "match_coverage": 100.0,
+          "rule_relevance": 95,
+          "rule_identifier": "apache_no-version_16.RULE",
+          "rule_url": "https://github.com/nexB/scancode-toolkit/tree/develop/src/licensedcode/data/rules/apache_no-version_16.RULE"
+        }
+      ]
+    },
+    {
+      "identifier": "apache_2_0-e9b9f486-4e13-6aa3-6fa1-08b43bb29954",
+      "license_expression": "apache-2.0",
+      "license_expression_spdx": "Apache-2.0",
+      "detection_count": 1,
+      "reference_matches": [
+        {
+          "license_expression": "apache-2.0",
+          "license_expression_spdx": "Apache-2.0",
+          "from_file": "commons-cli-1.11.0-src/LICENSE.txt",
+          "start_line": 1,
+          "end_line": 201,
+          "matcher": "1-hash",
+          "score": 100.0,
+          "matched_length": 1584,
+          "match_coverage": 100.0,
+          "rule_relevance": 100,
+          "rule_identifier": "apache-2.0_1330.RULE",
+          "rule_url": "https://github.com/nexB/scancode-toolkit/tree/develop/src/licensedcode/data/rules/apache-2.0_1330.RULE"
+        }
+      ]
+    },
+    {
+      "identifier": "apache_2_0-f9f674f7-2aab-1b8f-55f6-30f410f839ed",
+      "license_expression": "apache-2.0",
+      "license_expression_spdx": "Apache-2.0",
+      "detection_count": 1,
+      "reference_matches": [
+        {
+          "license_expression": "unknown-license-reference",
+          "license_expression_spdx": "LicenseRef-scancode-unknown-license-reference",
+          "from_file": "commons-cli-1.11.0-src/README.md",
+          "start_line": 100,
+          "end_line": 100,
+          "matcher": "2-aho",
+          "score": 100.0,
+          "matched_length": 3,
+          "match_coverage": 100.0,
+          "rule_relevance": 100,
+          "rule_identifier": "license-intro_25.RULE",
+          "rule_url": "https://github.com/nexB/scancode-toolkit/tree/develop/src/licensedcode/data/rules/license-intro_25.RULE"
+        },
+        {
+          "license_expression": "apache-2.0",
+          "license_expression_spdx": "Apache-2.0",
+          "from_file": "commons-cli-1.11.0-src/README.md",
+          "start_line": 100,
+          "end_line": 100,
+          "matcher": "2-aho",
+          "score": 100.0,
+          "matched_length": 11,
+          "match_coverage": 100.0,
+          "rule_relevance": 100,
+          "rule_identifier": "apache-2.0_85.RULE",
+          "rule_url": "https://github.com/nexB/scancode-toolkit/tree/develop/src/licensedcode/data/rules/apache-2.0_85.RULE"
+        }
+      ]
+    },
+    {
+      "identifier": "generic_cla-d9c428b9-536a-9194-4ef5-d1616b89c8fa",
+      "license_expression": "generic-cla",
+      "license_expression_spdx": "LicenseRef-scancode-generic-cla",
+      "detection_count": 1,
+      "reference_matches": [
+        {
+          "license_expression": "generic-cla",
+          "license_expression_spdx": "LicenseRef-scancode-generic-cla",
+          "from_file": "commons-cli-1.11.0-src/CONTRIBUTING.md",
+          "start_line": 110,
+          "end_line": 110,
+          "matcher": "2-aho",
+          "score": 100.0,
+          "matched_length": 4,
+          "match_coverage": 100.0,
+          "rule_relevance": 100,
+          "rule_identifier": "generic-cla8.RULE",
+          "rule_url": "https://github.com/nexB/scancode-toolkit/tree/develop/src/licensedcode/data/rules/generic-cla8.RULE"
+        }
+      ]
+    },
+    {
+      "identifier": "generic_cla_and_apache_2_0-6be2f026-f29e-1173-0450-d1a83fc569d5",
+      "license_expression": "generic-cla AND apache-2.0",
+      "license_expression_spdx": "LicenseRef-scancode-generic-cla AND Apache-2.0",
+      "detection_count": 1,
+      "reference_matches": [
+        {
+          "license_expression": "generic-cla",
+          "license_expression_spdx": "LicenseRef-scancode-generic-cla",
+          "from_file": "commons-cli-1.11.0-src/README.md",
+          "start_line": 95,
+          "end_line": 95,
+          "matcher": "2-aho",
+          "score": 80.0,
+          "matched_length": 3,
+          "match_coverage": 100.0,
+          "rule_relevance": 80,
+          "rule_identifier": "generic-cla5.RULE",
+          "rule_url": "https://github.com/nexB/scancode-toolkit/tree/develop/src/licensedcode/data/rules/generic-cla5.RULE"
+        },
+        {
+          "license_expression": "apache-2.0",
+          "license_expression_spdx": "Apache-2.0",
+          "from_file": "commons-cli-1.11.0-src/README.md",
+          "start_line": 95,
+          "end_line": 95,
+          "matcher": "2-aho",
+          "score": 95.0,
+          "matched_length": 5,
+          "match_coverage": 100.0,
+          "rule_relevance": 95,
+          "rule_identifier": "apache_no-version_16.RULE",
+          "rule_url": "https://github.com/nexB/scancode-toolkit/tree/develop/src/licensedcode/data/rules/apache_no-version_16.RULE"
+        }
+      ]
+    },
+    {
+      "identifier": "generic_cla_and_apache_2_0-dd62b2ab-fb69-50bf-d4c9-66855eb81017",
+      "license_expression": "generic-cla AND apache-2.0",
+      "license_expression_spdx": "LicenseRef-scancode-generic-cla AND Apache-2.0",
+      "detection_count": 1,
+      "reference_matches": [
+        {
+          "license_expression": "generic-cla",
+          "license_expression_spdx": "LicenseRef-scancode-generic-cla",
+          "from_file": "commons-cli-1.11.0-src/CONTRIBUTING.md",
+          "start_line": 91,
+          "end_line": 91,
+          "matcher": "2-aho",
+          "score": 100.0,
+          "matched_length": 4,
+          "match_coverage": 100.0,
+          "rule_relevance": 100,
+          "rule_identifier": "generic-cla8.RULE",
+          "rule_url": "https://github.com/nexB/scancode-toolkit/tree/develop/src/licensedcode/data/rules/generic-cla8.RULE"
+        },
+        {
+          "license_expression": "apache-2.0",
+          "license_expression_spdx": "Apache-2.0",
+          "from_file": "commons-cli-1.11.0-src/CONTRIBUTING.md",
+          "start_line": 93,
+          "end_line": 93,
+          "matcher": "2-aho",
+          "score": 100.0,
+          "matched_length": 10,
+          "match_coverage": 100.0,
+          "rule_relevance": 100,
+          "rule_identifier": "apache-2.0_854.RULE",
+          "rule_url": "https://github.com/nexB/scancode-toolkit/tree/develop/src/licensedcode/data/rules/apache-2.0_854.RULE"
         }
       ]
     }
@@ -445,7 +619,7 @@
       "is_script": false,
       "package_data": [],
       "for_packages": [
-        "pkg:maven/commons-cli/commons-cli@1.11.0?uuid=b9deee21-2198-4b9e-9797-00568ad8544e"
+        "pkg:maven/commons-cli/commons-cli@1.11.0?uuid=23b3e4d2-f5b0-42f8-b5a2-d1568c22b67b"
       ],
       "detected_license_expression": null,
       "detected_license_expression_spdx": null,
@@ -485,13 +659,112 @@
       "is_script": false,
       "package_data": [],
       "for_packages": [
-        "pkg:maven/commons-cli/commons-cli@1.11.0?uuid=b9deee21-2198-4b9e-9797-00568ad8544e"
+        "pkg:maven/commons-cli/commons-cli@1.11.0?uuid=23b3e4d2-f5b0-42f8-b5a2-d1568c22b67b"
       ],
-      "detected_license_expression": null,
-      "detected_license_expression_spdx": null,
-      "license_detections": [],
+      "detected_license_expression": "apache-2.0 AND (generic-cla AND apache-2.0) AND generic-cla",
+      "detected_license_expression_spdx": "Apache-2.0 AND (LicenseRef-scancode-generic-cla AND Apache-2.0) AND LicenseRef-scancode-generic-cla",
+      "license_detections": [
+        {
+          "license_expression": "apache-2.0",
+          "license_expression_spdx": "Apache-2.0",
+          "matches": [
+            {
+              "license_expression": "apache-2.0",
+              "license_expression_spdx": "Apache-2.0",
+              "from_file": "commons-cli-1.11.0-src/CONTRIBUTING.md",
+              "start_line": 2,
+              "end_line": 15,
+              "matcher": "2-aho",
+              "score": 100.0,
+              "matched_length": 119,
+              "match_coverage": 100.0,
+              "rule_relevance": 100,
+              "rule_identifier": "apache-2.0_663.RULE",
+              "rule_url": "https://github.com/nexB/scancode-toolkit/tree/develop/src/licensedcode/data/rules/apache-2.0_663.RULE"
+            }
+          ],
+          "identifier": "apache_2_0-eb6b5ae0-4f88-4e9b-d67c-c6c8e733b1cd"
+        },
+        {
+          "license_expression": "generic-cla AND apache-2.0",
+          "license_expression_spdx": "LicenseRef-scancode-generic-cla AND Apache-2.0",
+          "matches": [
+            {
+              "license_expression": "generic-cla",
+              "license_expression_spdx": "LicenseRef-scancode-generic-cla",
+              "from_file": "commons-cli-1.11.0-src/CONTRIBUTING.md",
+              "start_line": 91,
+              "end_line": 91,
+              "matcher": "2-aho",
+              "score": 100.0,
+              "matched_length": 4,
+              "match_coverage": 100.0,
+              "rule_relevance": 100,
+              "rule_identifier": "generic-cla8.RULE",
+              "rule_url": "https://github.com/nexB/scancode-toolkit/tree/develop/src/licensedcode/data/rules/generic-cla8.RULE"
+            },
+            {
+              "license_expression": "apache-2.0",
+              "license_expression_spdx": "Apache-2.0",
+              "from_file": "commons-cli-1.11.0-src/CONTRIBUTING.md",
+              "start_line": 93,
+              "end_line": 93,
+              "matcher": "2-aho",
+              "score": 100.0,
+              "matched_length": 10,
+              "match_coverage": 100.0,
+              "rule_relevance": 100,
+              "rule_identifier": "apache-2.0_854.RULE",
+              "rule_url": "https://github.com/nexB/scancode-toolkit/tree/develop/src/licensedcode/data/rules/apache-2.0_854.RULE"
+            }
+          ],
+          "identifier": "generic_cla_and_apache_2_0-dd62b2ab-fb69-50bf-d4c9-66855eb81017"
+        },
+        {
+          "license_expression": "generic-cla",
+          "license_expression_spdx": "LicenseRef-scancode-generic-cla",
+          "matches": [
+            {
+              "license_expression": "generic-cla",
+              "license_expression_spdx": "LicenseRef-scancode-generic-cla",
+              "from_file": "commons-cli-1.11.0-src/CONTRIBUTING.md",
+              "start_line": 110,
+              "end_line": 110,
+              "matcher": "2-aho",
+              "score": 100.0,
+              "matched_length": 4,
+              "match_coverage": 100.0,
+              "rule_relevance": 100,
+              "rule_identifier": "generic-cla8.RULE",
+              "rule_url": "https://github.com/nexB/scancode-toolkit/tree/develop/src/licensedcode/data/rules/generic-cla8.RULE"
+            }
+          ],
+          "identifier": "generic_cla-d9c428b9-536a-9194-4ef5-d1616b89c8fa"
+        },
+        {
+          "license_expression": "apache-2.0",
+          "license_expression_spdx": "Apache-2.0",
+          "matches": [
+            {
+              "license_expression": "apache-2.0",
+              "license_expression_spdx": "Apache-2.0",
+              "from_file": "commons-cli-1.11.0-src/CONTRIBUTING.md",
+              "start_line": 115,
+              "end_line": 115,
+              "matcher": "2-aho",
+              "score": 95.0,
+              "matched_length": 5,
+              "match_coverage": 100.0,
+              "rule_relevance": 95,
+              "rule_identifier": "apache_no-version_16.RULE",
+              "rule_url": "https://github.com/nexB/scancode-toolkit/tree/develop/src/licensedcode/data/rules/apache_no-version_16.RULE"
+            }
+          ],
+          "identifier": "apache_2_0-c3c452de-aa34-eb66-9712-f4708f1f535a"
+        }
+      ],
       "license_clues": [],
-      "percentage_of_license_text": 0,
+      "percentage_of_license_text": 15.96,
       "copyrights": [],
       "holders": [],
       "authors": [],
@@ -596,7 +869,7 @@
       "is_script": false,
       "package_data": [],
       "for_packages": [
-        "pkg:maven/commons-cli/commons-cli@1.11.0?uuid=b9deee21-2198-4b9e-9797-00568ad8544e"
+        "pkg:maven/commons-cli/commons-cli@1.11.0?uuid=23b3e4d2-f5b0-42f8-b5a2-d1568c22b67b"
       ],
       "detected_license_expression": "apache-2.0",
       "detected_license_expression_spdx": "Apache-2.0",
@@ -669,13 +942,35 @@
       "is_script": false,
       "package_data": [],
       "for_packages": [
-        "pkg:maven/commons-cli/commons-cli@1.11.0?uuid=b9deee21-2198-4b9e-9797-00568ad8544e"
+        "pkg:maven/commons-cli/commons-cli@1.11.0?uuid=23b3e4d2-f5b0-42f8-b5a2-d1568c22b67b"
       ],
-      "detected_license_expression": null,
-      "detected_license_expression_spdx": null,
-      "license_detections": [],
+      "detected_license_expression": "apache-2.0",
+      "detected_license_expression_spdx": "Apache-2.0",
+      "license_detections": [
+        {
+          "license_expression": "apache-2.0",
+          "license_expression_spdx": "Apache-2.0",
+          "matches": [
+            {
+              "license_expression": "apache-2.0",
+              "license_expression_spdx": "Apache-2.0",
+              "from_file": "commons-cli-1.11.0-src/NOTICE.txt",
+              "start_line": 4,
+              "end_line": 5,
+              "matcher": "2-aho",
+              "score": 95.0,
+              "matched_length": 14,
+              "match_coverage": 100.0,
+              "rule_relevance": 95,
+              "rule_identifier": "apache-2.0_product_includes_1.RULE",
+              "rule_url": "https://github.com/nexB/scancode-toolkit/tree/develop/src/licensedcode/data/rules/apache-2.0_product_includes_1.RULE"
+            }
+          ],
+          "identifier": "apache_2_0-452bc3fe-e365-2d3d-83b5-e5014e776596"
+        }
+      ],
       "license_clues": [],
-      "percentage_of_license_text": 0,
+      "percentage_of_license_text": 58.33,
       "copyrights": [
         {
           "copyright": "Copyright 2002-2025 The Apache Software Foundation",
@@ -894,19 +1189,19 @@
                 {
                   "license_expression": "apache-2.0",
                   "license_expression_spdx": "Apache-2.0",
-                  "from_file": "commons-cli-1.11.0-src/LICENSE.txt",
-                  "start_line": 1,
-                  "end_line": 201,
-                  "matcher": "1-hash",
+                  "from_file": "commons-cli-1.11.0-src/pom.xml",
+                  "start_line": 3,
+                  "end_line": 16,
+                  "matcher": "2-aho",
                   "score": 100.0,
-                  "matched_length": 1584,
+                  "matched_length": 119,
                   "match_coverage": 100.0,
                   "rule_relevance": 100,
-                  "rule_identifier": "apache-2.0_1330.RULE",
-                  "rule_url": "https://github.com/nexB/scancode-toolkit/tree/develop/src/licensedcode/data/rules/apache-2.0_1330.RULE"
+                  "rule_identifier": "apache-2.0_663.RULE",
+                  "rule_url": "https://github.com/nexB/scancode-toolkit/tree/develop/src/licensedcode/data/rules/apache-2.0_663.RULE"
                 }
               ],
-              "identifier": "apache_2_0-e9b9f486-4e13-6aa3-6fa1-08b43bb29954"
+              "identifier": "apache_2_0-eb6b5ae0-4f88-4e9b-d67c-c6c8e733b1cd"
             }
           ],
           "other_license_expression": null,
@@ -1008,13 +1303,35 @@
         }
       ],
       "for_packages": [
-        "pkg:maven/commons-cli/commons-cli@1.11.0?uuid=b9deee21-2198-4b9e-9797-00568ad8544e"
+        "pkg:maven/commons-cli/commons-cli@1.11.0?uuid=23b3e4d2-f5b0-42f8-b5a2-d1568c22b67b"
       ],
-      "detected_license_expression": null,
-      "detected_license_expression_spdx": null,
-      "license_detections": [],
+      "detected_license_expression": "apache-2.0",
+      "detected_license_expression_spdx": "Apache-2.0",
+      "license_detections": [
+        {
+          "license_expression": "apache-2.0",
+          "license_expression_spdx": "Apache-2.0",
+          "matches": [
+            {
+              "license_expression": "apache-2.0",
+              "license_expression_spdx": "Apache-2.0",
+              "from_file": "commons-cli-1.11.0-src/pom.xml",
+              "start_line": 3,
+              "end_line": 16,
+              "matcher": "2-aho",
+              "score": 100.0,
+              "matched_length": 119,
+              "match_coverage": 100.0,
+              "rule_relevance": 100,
+              "rule_identifier": "apache-2.0_663.RULE",
+              "rule_url": "https://github.com/nexB/scancode-toolkit/tree/develop/src/licensedcode/data/rules/apache-2.0_663.RULE"
+            }
+          ],
+          "identifier": "apache_2_0-eb6b5ae0-4f88-4e9b-d67c-c6c8e733b1cd"
+        }
+      ],
       "license_clues": [],
-      "percentage_of_license_text": 0,
+      "percentage_of_license_text": 8.38,
       "copyrights": [],
       "holders": [],
       "authors": [],
@@ -1155,13 +1472,105 @@
       "is_script": false,
       "package_data": [],
       "for_packages": [
-        "pkg:maven/commons-cli/commons-cli@1.11.0?uuid=b9deee21-2198-4b9e-9797-00568ad8544e"
+        "pkg:maven/commons-cli/commons-cli@1.11.0?uuid=23b3e4d2-f5b0-42f8-b5a2-d1568c22b67b"
       ],
-      "detected_license_expression": null,
-      "detected_license_expression_spdx": null,
-      "license_detections": [],
+      "detected_license_expression": "apache-2.0 AND (generic-cla AND apache-2.0)",
+      "detected_license_expression_spdx": "Apache-2.0 AND (LicenseRef-scancode-generic-cla AND Apache-2.0)",
+      "license_detections": [
+        {
+          "license_expression": "apache-2.0",
+          "license_expression_spdx": "Apache-2.0",
+          "matches": [
+            {
+              "license_expression": "apache-2.0",
+              "license_expression_spdx": "Apache-2.0",
+              "from_file": "commons-cli-1.11.0-src/README.md",
+              "start_line": 2,
+              "end_line": 15,
+              "matcher": "2-aho",
+              "score": 100.0,
+              "matched_length": 119,
+              "match_coverage": 100.0,
+              "rule_relevance": 100,
+              "rule_identifier": "apache-2.0_663.RULE",
+              "rule_url": "https://github.com/nexB/scancode-toolkit/tree/develop/src/licensedcode/data/rules/apache-2.0_663.RULE"
+            }
+          ],
+          "identifier": "apache_2_0-eb6b5ae0-4f88-4e9b-d67c-c6c8e733b1cd"
+        },
+        {
+          "license_expression": "generic-cla AND apache-2.0",
+          "license_expression_spdx": "LicenseRef-scancode-generic-cla AND Apache-2.0",
+          "matches": [
+            {
+              "license_expression": "generic-cla",
+              "license_expression_spdx": "LicenseRef-scancode-generic-cla",
+              "from_file": "commons-cli-1.11.0-src/README.md",
+              "start_line": 95,
+              "end_line": 95,
+              "matcher": "2-aho",
+              "score": 80.0,
+              "matched_length": 3,
+              "match_coverage": 100.0,
+              "rule_relevance": 80,
+              "rule_identifier": "generic-cla5.RULE",
+              "rule_url": "https://github.com/nexB/scancode-toolkit/tree/develop/src/licensedcode/data/rules/generic-cla5.RULE"
+            },
+            {
+              "license_expression": "apache-2.0",
+              "license_expression_spdx": "Apache-2.0",
+              "from_file": "commons-cli-1.11.0-src/README.md",
+              "start_line": 95,
+              "end_line": 95,
+              "matcher": "2-aho",
+              "score": 95.0,
+              "matched_length": 5,
+              "match_coverage": 100.0,
+              "rule_relevance": 95,
+              "rule_identifier": "apache_no-version_16.RULE",
+              "rule_url": "https://github.com/nexB/scancode-toolkit/tree/develop/src/licensedcode/data/rules/apache_no-version_16.RULE"
+            }
+          ],
+          "identifier": "generic_cla_and_apache_2_0-6be2f026-f29e-1173-0450-d1a83fc569d5"
+        },
+        {
+          "license_expression": "apache-2.0",
+          "license_expression_spdx": "Apache-2.0",
+          "matches": [
+            {
+              "license_expression": "unknown-license-reference",
+              "license_expression_spdx": "LicenseRef-scancode-unknown-license-reference",
+              "from_file": "commons-cli-1.11.0-src/README.md",
+              "start_line": 100,
+              "end_line": 100,
+              "matcher": "2-aho",
+              "score": 100.0,
+              "matched_length": 3,
+              "match_coverage": 100.0,
+              "rule_relevance": 100,
+              "rule_identifier": "license-intro_25.RULE",
+              "rule_url": "https://github.com/nexB/scancode-toolkit/tree/develop/src/licensedcode/data/rules/license-intro_25.RULE"
+            },
+            {
+              "license_expression": "apache-2.0",
+              "license_expression_spdx": "Apache-2.0",
+              "from_file": "commons-cli-1.11.0-src/README.md",
+              "start_line": 100,
+              "end_line": 100,
+              "matcher": "2-aho",
+              "score": 100.0,
+              "matched_length": 11,
+              "match_coverage": 100.0,
+              "rule_relevance": 100,
+              "rule_identifier": "apache-2.0_85.RULE",
+              "rule_url": "https://github.com/nexB/scancode-toolkit/tree/develop/src/licensedcode/data/rules/apache-2.0_85.RULE"
+            }
+          ],
+          "identifier": "apache_2_0-f9f674f7-2aab-1b8f-55f6-30f410f839ed"
+        }
+      ],
       "license_clues": [],
-      "percentage_of_license_text": 0,
+      "percentage_of_license_text": 18.58,
       "copyrights": [],
       "holders": [],
       "authors": [],
@@ -1311,7 +1720,7 @@
       "is_script": false,
       "package_data": [],
       "for_packages": [
-        "pkg:maven/commons-cli/commons-cli@1.11.0?uuid=b9deee21-2198-4b9e-9797-00568ad8544e"
+        "pkg:maven/commons-cli/commons-cli@1.11.0?uuid=23b3e4d2-f5b0-42f8-b5a2-d1568c22b67b"
       ],
       "detected_license_expression": null,
       "detected_license_expression_spdx": null,
@@ -1392,7 +1801,7 @@
       "is_script": false,
       "package_data": [],
       "for_packages": [
-        "pkg:maven/commons-cli/commons-cli@1.11.0?uuid=b9deee21-2198-4b9e-9797-00568ad8544e"
+        "pkg:maven/commons-cli/commons-cli@1.11.0?uuid=23b3e4d2-f5b0-42f8-b5a2-d1568c22b67b"
       ],
       "detected_license_expression": null,
       "detected_license_expression_spdx": null,
@@ -1432,7 +1841,7 @@
       "is_script": false,
       "package_data": [],
       "for_packages": [
-        "pkg:maven/commons-cli/commons-cli@1.11.0?uuid=b9deee21-2198-4b9e-9797-00568ad8544e"
+        "pkg:maven/commons-cli/commons-cli@1.11.0?uuid=23b3e4d2-f5b0-42f8-b5a2-d1568c22b67b"
       ],
       "detected_license_expression": null,
       "detected_license_expression_spdx": null,
@@ -1472,13 +1881,35 @@
       "is_script": false,
       "package_data": [],
       "for_packages": [
-        "pkg:maven/commons-cli/commons-cli@1.11.0?uuid=b9deee21-2198-4b9e-9797-00568ad8544e"
+        "pkg:maven/commons-cli/commons-cli@1.11.0?uuid=23b3e4d2-f5b0-42f8-b5a2-d1568c22b67b"
       ],
-      "detected_license_expression": null,
-      "detected_license_expression_spdx": null,
-      "license_detections": [],
+      "detected_license_expression": "apache-2.0",
+      "detected_license_expression_spdx": "Apache-2.0",
+      "license_detections": [
+        {
+          "license_expression": "apache-2.0",
+          "license_expression_spdx": "Apache-2.0",
+          "matches": [
+            {
+              "license_expression": "apache-2.0",
+              "license_expression_spdx": "Apache-2.0",
+              "from_file": "commons-cli-1.11.0-src/src/assembly/bin.xml",
+              "start_line": 2,
+              "end_line": 15,
+              "matcher": "2-aho",
+              "score": 100.0,
+              "matched_length": 119,
+              "match_coverage": 100.0,
+              "rule_relevance": 100,
+              "rule_identifier": "apache-2.0_663.RULE",
+              "rule_url": "https://github.com/nexB/scancode-toolkit/tree/develop/src/licensedcode/data/rules/apache-2.0_663.RULE"
+            }
+          ],
+          "identifier": "apache_2_0-eb6b5ae0-4f88-4e9b-d67c-c6c8e733b1cd"
+        }
+      ],
       "license_clues": [],
-      "percentage_of_license_text": 0,
+      "percentage_of_license_text": 52.89,
       "copyrights": [],
       "holders": [],
       "authors": [],
@@ -1528,13 +1959,35 @@
       "is_script": false,
       "package_data": [],
       "for_packages": [
-        "pkg:maven/commons-cli/commons-cli@1.11.0?uuid=b9deee21-2198-4b9e-9797-00568ad8544e"
+        "pkg:maven/commons-cli/commons-cli@1.11.0?uuid=23b3e4d2-f5b0-42f8-b5a2-d1568c22b67b"
       ],
-      "detected_license_expression": null,
-      "detected_license_expression_spdx": null,
-      "license_detections": [],
+      "detected_license_expression": "apache-2.0",
+      "detected_license_expression_spdx": "Apache-2.0",
+      "license_detections": [
+        {
+          "license_expression": "apache-2.0",
+          "license_expression_spdx": "Apache-2.0",
+          "matches": [
+            {
+              "license_expression": "apache-2.0",
+              "license_expression_spdx": "Apache-2.0",
+              "from_file": "commons-cli-1.11.0-src/src/assembly/src.xml",
+              "start_line": 2,
+              "end_line": 15,
+              "matcher": "2-aho",
+              "score": 100.0,
+              "matched_length": 119,
+              "match_coverage": 100.0,
+              "rule_relevance": 100,
+              "rule_identifier": "apache-2.0_663.RULE",
+              "rule_url": "https://github.com/nexB/scancode-toolkit/tree/develop/src/licensedcode/data/rules/apache-2.0_663.RULE"
+            }
+          ],
+          "identifier": "apache_2_0-eb6b5ae0-4f88-4e9b-d67c-c6c8e733b1cd"
+        }
+      ],
       "license_clues": [],
-      "percentage_of_license_text": 0,
+      "percentage_of_license_text": 56.13,
       "copyrights": [],
       "holders": [],
       "authors": [],
@@ -1584,7 +2037,7 @@
       "is_script": false,
       "package_data": [],
       "for_packages": [
-        "pkg:maven/commons-cli/commons-cli@1.11.0?uuid=b9deee21-2198-4b9e-9797-00568ad8544e"
+        "pkg:maven/commons-cli/commons-cli@1.11.0?uuid=23b3e4d2-f5b0-42f8-b5a2-d1568c22b67b"
       ],
       "detected_license_expression": null,
       "detected_license_expression_spdx": null,
@@ -1624,7 +2077,7 @@
       "is_script": false,
       "package_data": [],
       "for_packages": [
-        "pkg:maven/commons-cli/commons-cli@1.11.0?uuid=b9deee21-2198-4b9e-9797-00568ad8544e"
+        "pkg:maven/commons-cli/commons-cli@1.11.0?uuid=23b3e4d2-f5b0-42f8-b5a2-d1568c22b67b"
       ],
       "detected_license_expression": "apache-2.0",
       "detected_license_expression_spdx": "Apache-2.0",
@@ -1707,7 +2160,7 @@
       "is_script": false,
       "package_data": [],
       "for_packages": [
-        "pkg:maven/commons-cli/commons-cli@1.11.0?uuid=b9deee21-2198-4b9e-9797-00568ad8544e"
+        "pkg:maven/commons-cli/commons-cli@1.11.0?uuid=23b3e4d2-f5b0-42f8-b5a2-d1568c22b67b"
       ],
       "detected_license_expression": "apache-2.0",
       "detected_license_expression_spdx": "Apache-2.0",
@@ -1780,7 +2233,7 @@
       "is_script": false,
       "package_data": [],
       "for_packages": [
-        "pkg:maven/commons-cli/commons-cli@1.11.0?uuid=b9deee21-2198-4b9e-9797-00568ad8544e"
+        "pkg:maven/commons-cli/commons-cli@1.11.0?uuid=23b3e4d2-f5b0-42f8-b5a2-d1568c22b67b"
       ],
       "detected_license_expression": null,
       "detected_license_expression_spdx": null,
@@ -1820,7 +2273,7 @@
       "is_script": false,
       "package_data": [],
       "for_packages": [
-        "pkg:maven/commons-cli/commons-cli@1.11.0?uuid=b9deee21-2198-4b9e-9797-00568ad8544e"
+        "pkg:maven/commons-cli/commons-cli@1.11.0?uuid=23b3e4d2-f5b0-42f8-b5a2-d1568c22b67b"
       ],
       "detected_license_expression": "apache-2.0",
       "detected_license_expression_spdx": "Apache-2.0",
@@ -1893,7 +2346,7 @@
       "is_script": false,
       "package_data": [],
       "for_packages": [
-        "pkg:maven/commons-cli/commons-cli@1.11.0?uuid=b9deee21-2198-4b9e-9797-00568ad8544e"
+        "pkg:maven/commons-cli/commons-cli@1.11.0?uuid=23b3e4d2-f5b0-42f8-b5a2-d1568c22b67b"
       ],
       "detected_license_expression": "apache-2.0",
       "detected_license_expression_spdx": "Apache-2.0",
@@ -2031,7 +2484,7 @@
       "is_script": false,
       "package_data": [],
       "for_packages": [
-        "pkg:maven/commons-cli/commons-cli@1.11.0?uuid=b9deee21-2198-4b9e-9797-00568ad8544e"
+        "pkg:maven/commons-cli/commons-cli@1.11.0?uuid=23b3e4d2-f5b0-42f8-b5a2-d1568c22b67b"
       ],
       "detected_license_expression": "apache-2.0",
       "detected_license_expression_spdx": "Apache-2.0",
@@ -2109,7 +2562,7 @@
       "is_script": false,
       "package_data": [],
       "for_packages": [
-        "pkg:maven/commons-cli/commons-cli@1.11.0?uuid=b9deee21-2198-4b9e-9797-00568ad8544e"
+        "pkg:maven/commons-cli/commons-cli@1.11.0?uuid=23b3e4d2-f5b0-42f8-b5a2-d1568c22b67b"
       ],
       "detected_license_expression": null,
       "detected_license_expression_spdx": null,
@@ -2149,7 +2602,7 @@
       "is_script": false,
       "package_data": [],
       "for_packages": [
-        "pkg:maven/commons-cli/commons-cli@1.11.0?uuid=b9deee21-2198-4b9e-9797-00568ad8544e"
+        "pkg:maven/commons-cli/commons-cli@1.11.0?uuid=23b3e4d2-f5b0-42f8-b5a2-d1568c22b67b"
       ],
       "detected_license_expression": null,
       "detected_license_expression_spdx": null,
@@ -2189,7 +2642,7 @@
       "is_script": false,
       "package_data": [],
       "for_packages": [
-        "pkg:maven/commons-cli/commons-cli@1.11.0?uuid=b9deee21-2198-4b9e-9797-00568ad8544e"
+        "pkg:maven/commons-cli/commons-cli@1.11.0?uuid=23b3e4d2-f5b0-42f8-b5a2-d1568c22b67b"
       ],
       "detected_license_expression": null,
       "detected_license_expression_spdx": null,
@@ -2229,7 +2682,7 @@
       "is_script": false,
       "package_data": [],
       "for_packages": [
-        "pkg:maven/commons-cli/commons-cli@1.11.0?uuid=b9deee21-2198-4b9e-9797-00568ad8544e"
+        "pkg:maven/commons-cli/commons-cli@1.11.0?uuid=23b3e4d2-f5b0-42f8-b5a2-d1568c22b67b"
       ],
       "detected_license_expression": null,
       "detected_license_expression_spdx": null,
@@ -2269,7 +2722,7 @@
       "is_script": false,
       "package_data": [],
       "for_packages": [
-        "pkg:maven/commons-cli/commons-cli@1.11.0?uuid=b9deee21-2198-4b9e-9797-00568ad8544e"
+        "pkg:maven/commons-cli/commons-cli@1.11.0?uuid=23b3e4d2-f5b0-42f8-b5a2-d1568c22b67b"
       ],
       "detected_license_expression": null,
       "detected_license_expression_spdx": null,
@@ -2309,7 +2762,7 @@
       "is_script": false,
       "package_data": [],
       "for_packages": [
-        "pkg:maven/commons-cli/commons-cli@1.11.0?uuid=b9deee21-2198-4b9e-9797-00568ad8544e"
+        "pkg:maven/commons-cli/commons-cli@1.11.0?uuid=23b3e4d2-f5b0-42f8-b5a2-d1568c22b67b"
       ],
       "detected_license_expression": null,
       "detected_license_expression_spdx": null,
@@ -2349,7 +2802,7 @@
       "is_script": false,
       "package_data": [],
       "for_packages": [
-        "pkg:maven/commons-cli/commons-cli@1.11.0?uuid=b9deee21-2198-4b9e-9797-00568ad8544e"
+        "pkg:maven/commons-cli/commons-cli@1.11.0?uuid=23b3e4d2-f5b0-42f8-b5a2-d1568c22b67b"
       ],
       "detected_license_expression": "apache-2.0",
       "detected_license_expression_spdx": "Apache-2.0",
@@ -2417,7 +2870,7 @@
       "is_script": false,
       "package_data": [],
       "for_packages": [
-        "pkg:maven/commons-cli/commons-cli@1.11.0?uuid=b9deee21-2198-4b9e-9797-00568ad8544e"
+        "pkg:maven/commons-cli/commons-cli@1.11.0?uuid=23b3e4d2-f5b0-42f8-b5a2-d1568c22b67b"
       ],
       "detected_license_expression": "apache-2.0",
       "detected_license_expression_spdx": "Apache-2.0",
@@ -2485,7 +2938,7 @@
       "is_script": false,
       "package_data": [],
       "for_packages": [
-        "pkg:maven/commons-cli/commons-cli@1.11.0?uuid=b9deee21-2198-4b9e-9797-00568ad8544e"
+        "pkg:maven/commons-cli/commons-cli@1.11.0?uuid=23b3e4d2-f5b0-42f8-b5a2-d1568c22b67b"
       ],
       "detected_license_expression": "apache-2.0",
       "detected_license_expression_spdx": "Apache-2.0",
@@ -2553,7 +3006,7 @@
       "is_script": false,
       "package_data": [],
       "for_packages": [
-        "pkg:maven/commons-cli/commons-cli@1.11.0?uuid=b9deee21-2198-4b9e-9797-00568ad8544e"
+        "pkg:maven/commons-cli/commons-cli@1.11.0?uuid=23b3e4d2-f5b0-42f8-b5a2-d1568c22b67b"
       ],
       "detected_license_expression": "apache-2.0",
       "detected_license_expression_spdx": "Apache-2.0",
@@ -2621,7 +3074,7 @@
       "is_script": false,
       "package_data": [],
       "for_packages": [
-        "pkg:maven/commons-cli/commons-cli@1.11.0?uuid=b9deee21-2198-4b9e-9797-00568ad8544e"
+        "pkg:maven/commons-cli/commons-cli@1.11.0?uuid=23b3e4d2-f5b0-42f8-b5a2-d1568c22b67b"
       ],
       "detected_license_expression": "apache-2.0",
       "detected_license_expression_spdx": "Apache-2.0",
@@ -2689,7 +3142,7 @@
       "is_script": false,
       "package_data": [],
       "for_packages": [
-        "pkg:maven/commons-cli/commons-cli@1.11.0?uuid=b9deee21-2198-4b9e-9797-00568ad8544e"
+        "pkg:maven/commons-cli/commons-cli@1.11.0?uuid=23b3e4d2-f5b0-42f8-b5a2-d1568c22b67b"
       ],
       "detected_license_expression": "apache-2.0",
       "detected_license_expression_spdx": "Apache-2.0",
@@ -2757,7 +3210,7 @@
       "is_script": false,
       "package_data": [],
       "for_packages": [
-        "pkg:maven/commons-cli/commons-cli@1.11.0?uuid=b9deee21-2198-4b9e-9797-00568ad8544e"
+        "pkg:maven/commons-cli/commons-cli@1.11.0?uuid=23b3e4d2-f5b0-42f8-b5a2-d1568c22b67b"
       ],
       "detected_license_expression": "apache-2.0",
       "detected_license_expression_spdx": "Apache-2.0",
@@ -2825,7 +3278,7 @@
       "is_script": false,
       "package_data": [],
       "for_packages": [
-        "pkg:maven/commons-cli/commons-cli@1.11.0?uuid=b9deee21-2198-4b9e-9797-00568ad8544e"
+        "pkg:maven/commons-cli/commons-cli@1.11.0?uuid=23b3e4d2-f5b0-42f8-b5a2-d1568c22b67b"
       ],
       "detected_license_expression": "apache-2.0",
       "detected_license_expression_spdx": "Apache-2.0",
@@ -2893,7 +3346,7 @@
       "is_script": false,
       "package_data": [],
       "for_packages": [
-        "pkg:maven/commons-cli/commons-cli@1.11.0?uuid=b9deee21-2198-4b9e-9797-00568ad8544e"
+        "pkg:maven/commons-cli/commons-cli@1.11.0?uuid=23b3e4d2-f5b0-42f8-b5a2-d1568c22b67b"
       ],
       "detected_license_expression": "apache-2.0",
       "detected_license_expression_spdx": "Apache-2.0",
@@ -2966,7 +3419,7 @@
       "is_script": false,
       "package_data": [],
       "for_packages": [
-        "pkg:maven/commons-cli/commons-cli@1.11.0?uuid=b9deee21-2198-4b9e-9797-00568ad8544e"
+        "pkg:maven/commons-cli/commons-cli@1.11.0?uuid=23b3e4d2-f5b0-42f8-b5a2-d1568c22b67b"
       ],
       "detected_license_expression": "apache-2.0",
       "detected_license_expression_spdx": "Apache-2.0",
@@ -3034,7 +3487,7 @@
       "is_script": false,
       "package_data": [],
       "for_packages": [
-        "pkg:maven/commons-cli/commons-cli@1.11.0?uuid=b9deee21-2198-4b9e-9797-00568ad8544e"
+        "pkg:maven/commons-cli/commons-cli@1.11.0?uuid=23b3e4d2-f5b0-42f8-b5a2-d1568c22b67b"
       ],
       "detected_license_expression": "apache-2.0",
       "detected_license_expression_spdx": "Apache-2.0",
@@ -3102,7 +3555,7 @@
       "is_script": false,
       "package_data": [],
       "for_packages": [
-        "pkg:maven/commons-cli/commons-cli@1.11.0?uuid=b9deee21-2198-4b9e-9797-00568ad8544e"
+        "pkg:maven/commons-cli/commons-cli@1.11.0?uuid=23b3e4d2-f5b0-42f8-b5a2-d1568c22b67b"
       ],
       "detected_license_expression": "apache-2.0",
       "detected_license_expression_spdx": "Apache-2.0",
@@ -3170,7 +3623,7 @@
       "is_script": false,
       "package_data": [],
       "for_packages": [
-        "pkg:maven/commons-cli/commons-cli@1.11.0?uuid=b9deee21-2198-4b9e-9797-00568ad8544e"
+        "pkg:maven/commons-cli/commons-cli@1.11.0?uuid=23b3e4d2-f5b0-42f8-b5a2-d1568c22b67b"
       ],
       "detected_license_expression": "apache-2.0",
       "detected_license_expression_spdx": "Apache-2.0",
@@ -3238,7 +3691,7 @@
       "is_script": false,
       "package_data": [],
       "for_packages": [
-        "pkg:maven/commons-cli/commons-cli@1.11.0?uuid=b9deee21-2198-4b9e-9797-00568ad8544e"
+        "pkg:maven/commons-cli/commons-cli@1.11.0?uuid=23b3e4d2-f5b0-42f8-b5a2-d1568c22b67b"
       ],
       "detected_license_expression": "apache-2.0",
       "detected_license_expression_spdx": "Apache-2.0",
@@ -3311,7 +3764,7 @@
       "is_script": false,
       "package_data": [],
       "for_packages": [
-        "pkg:maven/commons-cli/commons-cli@1.11.0?uuid=b9deee21-2198-4b9e-9797-00568ad8544e"
+        "pkg:maven/commons-cli/commons-cli@1.11.0?uuid=23b3e4d2-f5b0-42f8-b5a2-d1568c22b67b"
       ],
       "detected_license_expression": "apache-2.0",
       "detected_license_expression_spdx": "Apache-2.0",
@@ -3389,7 +3842,7 @@
       "is_script": false,
       "package_data": [],
       "for_packages": [
-        "pkg:maven/commons-cli/commons-cli@1.11.0?uuid=b9deee21-2198-4b9e-9797-00568ad8544e"
+        "pkg:maven/commons-cli/commons-cli@1.11.0?uuid=23b3e4d2-f5b0-42f8-b5a2-d1568c22b67b"
       ],
       "detected_license_expression": "apache-2.0",
       "detected_license_expression_spdx": "Apache-2.0",
@@ -3457,7 +3910,7 @@
       "is_script": false,
       "package_data": [],
       "for_packages": [
-        "pkg:maven/commons-cli/commons-cli@1.11.0?uuid=b9deee21-2198-4b9e-9797-00568ad8544e"
+        "pkg:maven/commons-cli/commons-cli@1.11.0?uuid=23b3e4d2-f5b0-42f8-b5a2-d1568c22b67b"
       ],
       "detected_license_expression": "apache-2.0",
       "detected_license_expression_spdx": "Apache-2.0",
@@ -3525,7 +3978,7 @@
       "is_script": false,
       "package_data": [],
       "for_packages": [
-        "pkg:maven/commons-cli/commons-cli@1.11.0?uuid=b9deee21-2198-4b9e-9797-00568ad8544e"
+        "pkg:maven/commons-cli/commons-cli@1.11.0?uuid=23b3e4d2-f5b0-42f8-b5a2-d1568c22b67b"
       ],
       "detected_license_expression": "apache-2.0",
       "detected_license_expression_spdx": "Apache-2.0",
@@ -3593,7 +4046,7 @@
       "is_script": false,
       "package_data": [],
       "for_packages": [
-        "pkg:maven/commons-cli/commons-cli@1.11.0?uuid=b9deee21-2198-4b9e-9797-00568ad8544e"
+        "pkg:maven/commons-cli/commons-cli@1.11.0?uuid=23b3e4d2-f5b0-42f8-b5a2-d1568c22b67b"
       ],
       "detected_license_expression": "apache-2.0",
       "detected_license_expression_spdx": "Apache-2.0",
@@ -3661,7 +4114,7 @@
       "is_script": false,
       "package_data": [],
       "for_packages": [
-        "pkg:maven/commons-cli/commons-cli@1.11.0?uuid=b9deee21-2198-4b9e-9797-00568ad8544e"
+        "pkg:maven/commons-cli/commons-cli@1.11.0?uuid=23b3e4d2-f5b0-42f8-b5a2-d1568c22b67b"
       ],
       "detected_license_expression": "apache-2.0",
       "detected_license_expression_spdx": "Apache-2.0",
@@ -3729,7 +4182,7 @@
       "is_script": false,
       "package_data": [],
       "for_packages": [
-        "pkg:maven/commons-cli/commons-cli@1.11.0?uuid=b9deee21-2198-4b9e-9797-00568ad8544e"
+        "pkg:maven/commons-cli/commons-cli@1.11.0?uuid=23b3e4d2-f5b0-42f8-b5a2-d1568c22b67b"
       ],
       "detected_license_expression": "apache-2.0",
       "detected_license_expression_spdx": "Apache-2.0",
@@ -3797,7 +4250,7 @@
       "is_script": false,
       "package_data": [],
       "for_packages": [
-        "pkg:maven/commons-cli/commons-cli@1.11.0?uuid=b9deee21-2198-4b9e-9797-00568ad8544e"
+        "pkg:maven/commons-cli/commons-cli@1.11.0?uuid=23b3e4d2-f5b0-42f8-b5a2-d1568c22b67b"
       ],
       "detected_license_expression": "apache-2.0",
       "detected_license_expression_spdx": "Apache-2.0",
@@ -3865,7 +4318,7 @@
       "is_script": false,
       "package_data": [],
       "for_packages": [
-        "pkg:maven/commons-cli/commons-cli@1.11.0?uuid=b9deee21-2198-4b9e-9797-00568ad8544e"
+        "pkg:maven/commons-cli/commons-cli@1.11.0?uuid=23b3e4d2-f5b0-42f8-b5a2-d1568c22b67b"
       ],
       "detected_license_expression": "apache-2.0",
       "detected_license_expression_spdx": "Apache-2.0",
@@ -3933,7 +4386,7 @@
       "is_script": false,
       "package_data": [],
       "for_packages": [
-        "pkg:maven/commons-cli/commons-cli@1.11.0?uuid=b9deee21-2198-4b9e-9797-00568ad8544e"
+        "pkg:maven/commons-cli/commons-cli@1.11.0?uuid=23b3e4d2-f5b0-42f8-b5a2-d1568c22b67b"
       ],
       "detected_license_expression": "apache-2.0",
       "detected_license_expression_spdx": "Apache-2.0",
@@ -4001,7 +4454,7 @@
       "is_script": false,
       "package_data": [],
       "for_packages": [
-        "pkg:maven/commons-cli/commons-cli@1.11.0?uuid=b9deee21-2198-4b9e-9797-00568ad8544e"
+        "pkg:maven/commons-cli/commons-cli@1.11.0?uuid=23b3e4d2-f5b0-42f8-b5a2-d1568c22b67b"
       ],
       "detected_license_expression": "apache-2.0",
       "detected_license_expression_spdx": "Apache-2.0",
@@ -4069,7 +4522,7 @@
       "is_script": false,
       "package_data": [],
       "for_packages": [
-        "pkg:maven/commons-cli/commons-cli@1.11.0?uuid=b9deee21-2198-4b9e-9797-00568ad8544e"
+        "pkg:maven/commons-cli/commons-cli@1.11.0?uuid=23b3e4d2-f5b0-42f8-b5a2-d1568c22b67b"
       ],
       "detected_license_expression": "apache-2.0",
       "detected_license_expression_spdx": "Apache-2.0",
@@ -4137,7 +4590,7 @@
       "is_script": false,
       "package_data": [],
       "for_packages": [
-        "pkg:maven/commons-cli/commons-cli@1.11.0?uuid=b9deee21-2198-4b9e-9797-00568ad8544e"
+        "pkg:maven/commons-cli/commons-cli@1.11.0?uuid=23b3e4d2-f5b0-42f8-b5a2-d1568c22b67b"
       ],
       "detected_license_expression": null,
       "detected_license_expression_spdx": null,
@@ -4177,7 +4630,7 @@
       "is_script": false,
       "package_data": [],
       "for_packages": [
-        "pkg:maven/commons-cli/commons-cli@1.11.0?uuid=b9deee21-2198-4b9e-9797-00568ad8544e"
+        "pkg:maven/commons-cli/commons-cli@1.11.0?uuid=23b3e4d2-f5b0-42f8-b5a2-d1568c22b67b"
       ],
       "detected_license_expression": "apache-2.0",
       "detected_license_expression_spdx": "Apache-2.0",
@@ -4245,7 +4698,7 @@
       "is_script": false,
       "package_data": [],
       "for_packages": [
-        "pkg:maven/commons-cli/commons-cli@1.11.0?uuid=b9deee21-2198-4b9e-9797-00568ad8544e"
+        "pkg:maven/commons-cli/commons-cli@1.11.0?uuid=23b3e4d2-f5b0-42f8-b5a2-d1568c22b67b"
       ],
       "detected_license_expression": null,
       "detected_license_expression_spdx": null,
@@ -4285,7 +4738,7 @@
       "is_script": false,
       "package_data": [],
       "for_packages": [
-        "pkg:maven/commons-cli/commons-cli@1.11.0?uuid=b9deee21-2198-4b9e-9797-00568ad8544e"
+        "pkg:maven/commons-cli/commons-cli@1.11.0?uuid=23b3e4d2-f5b0-42f8-b5a2-d1568c22b67b"
       ],
       "detected_license_expression": null,
       "detected_license_expression_spdx": null,
@@ -4325,7 +4778,7 @@
       "is_script": false,
       "package_data": [],
       "for_packages": [
-        "pkg:maven/commons-cli/commons-cli@1.11.0?uuid=b9deee21-2198-4b9e-9797-00568ad8544e"
+        "pkg:maven/commons-cli/commons-cli@1.11.0?uuid=23b3e4d2-f5b0-42f8-b5a2-d1568c22b67b"
       ],
       "detected_license_expression": "apache-2.0",
       "detected_license_expression_spdx": "Apache-2.0",
@@ -4393,7 +4846,7 @@
       "is_script": false,
       "package_data": [],
       "for_packages": [
-        "pkg:maven/commons-cli/commons-cli@1.11.0?uuid=b9deee21-2198-4b9e-9797-00568ad8544e"
+        "pkg:maven/commons-cli/commons-cli@1.11.0?uuid=23b3e4d2-f5b0-42f8-b5a2-d1568c22b67b"
       ],
       "detected_license_expression": "apache-2.0",
       "detected_license_expression_spdx": "Apache-2.0",
@@ -4461,7 +4914,7 @@
       "is_script": false,
       "package_data": [],
       "for_packages": [
-        "pkg:maven/commons-cli/commons-cli@1.11.0?uuid=b9deee21-2198-4b9e-9797-00568ad8544e"
+        "pkg:maven/commons-cli/commons-cli@1.11.0?uuid=23b3e4d2-f5b0-42f8-b5a2-d1568c22b67b"
       ],
       "detected_license_expression": "apache-2.0",
       "detected_license_expression_spdx": "Apache-2.0",
@@ -4529,7 +4982,7 @@
       "is_script": false,
       "package_data": [],
       "for_packages": [
-        "pkg:maven/commons-cli/commons-cli@1.11.0?uuid=b9deee21-2198-4b9e-9797-00568ad8544e"
+        "pkg:maven/commons-cli/commons-cli@1.11.0?uuid=23b3e4d2-f5b0-42f8-b5a2-d1568c22b67b"
       ],
       "detected_license_expression": "apache-2.0",
       "detected_license_expression_spdx": "Apache-2.0",
@@ -4597,7 +5050,7 @@
       "is_script": false,
       "package_data": [],
       "for_packages": [
-        "pkg:maven/commons-cli/commons-cli@1.11.0?uuid=b9deee21-2198-4b9e-9797-00568ad8544e"
+        "pkg:maven/commons-cli/commons-cli@1.11.0?uuid=23b3e4d2-f5b0-42f8-b5a2-d1568c22b67b"
       ],
       "detected_license_expression": "apache-2.0",
       "detected_license_expression_spdx": "Apache-2.0",
@@ -4665,7 +5118,7 @@
       "is_script": false,
       "package_data": [],
       "for_packages": [
-        "pkg:maven/commons-cli/commons-cli@1.11.0?uuid=b9deee21-2198-4b9e-9797-00568ad8544e"
+        "pkg:maven/commons-cli/commons-cli@1.11.0?uuid=23b3e4d2-f5b0-42f8-b5a2-d1568c22b67b"
       ],
       "detected_license_expression": "apache-2.0",
       "detected_license_expression_spdx": "Apache-2.0",
@@ -4733,7 +5186,7 @@
       "is_script": false,
       "package_data": [],
       "for_packages": [
-        "pkg:maven/commons-cli/commons-cli@1.11.0?uuid=b9deee21-2198-4b9e-9797-00568ad8544e"
+        "pkg:maven/commons-cli/commons-cli@1.11.0?uuid=23b3e4d2-f5b0-42f8-b5a2-d1568c22b67b"
       ],
       "detected_license_expression": "apache-2.0",
       "detected_license_expression_spdx": "Apache-2.0",
@@ -4801,7 +5254,7 @@
       "is_script": false,
       "package_data": [],
       "for_packages": [
-        "pkg:maven/commons-cli/commons-cli@1.11.0?uuid=b9deee21-2198-4b9e-9797-00568ad8544e"
+        "pkg:maven/commons-cli/commons-cli@1.11.0?uuid=23b3e4d2-f5b0-42f8-b5a2-d1568c22b67b"
       ],
       "detected_license_expression": "apache-2.0",
       "detected_license_expression_spdx": "Apache-2.0",
@@ -4869,7 +5322,7 @@
       "is_script": false,
       "package_data": [],
       "for_packages": [
-        "pkg:maven/commons-cli/commons-cli@1.11.0?uuid=b9deee21-2198-4b9e-9797-00568ad8544e"
+        "pkg:maven/commons-cli/commons-cli@1.11.0?uuid=23b3e4d2-f5b0-42f8-b5a2-d1568c22b67b"
       ],
       "detected_license_expression": "apache-2.0",
       "detected_license_expression_spdx": "Apache-2.0",
@@ -4937,7 +5390,7 @@
       "is_script": false,
       "package_data": [],
       "for_packages": [
-        "pkg:maven/commons-cli/commons-cli@1.11.0?uuid=b9deee21-2198-4b9e-9797-00568ad8544e"
+        "pkg:maven/commons-cli/commons-cli@1.11.0?uuid=23b3e4d2-f5b0-42f8-b5a2-d1568c22b67b"
       ],
       "detected_license_expression": "apache-2.0",
       "detected_license_expression_spdx": "Apache-2.0",
@@ -5010,7 +5463,7 @@
       "is_script": false,
       "package_data": [],
       "for_packages": [
-        "pkg:maven/commons-cli/commons-cli@1.11.0?uuid=b9deee21-2198-4b9e-9797-00568ad8544e"
+        "pkg:maven/commons-cli/commons-cli@1.11.0?uuid=23b3e4d2-f5b0-42f8-b5a2-d1568c22b67b"
       ],
       "detected_license_expression": null,
       "detected_license_expression_spdx": null,
@@ -5050,7 +5503,7 @@
       "is_script": false,
       "package_data": [],
       "for_packages": [
-        "pkg:maven/commons-cli/commons-cli@1.11.0?uuid=b9deee21-2198-4b9e-9797-00568ad8544e"
+        "pkg:maven/commons-cli/commons-cli@1.11.0?uuid=23b3e4d2-f5b0-42f8-b5a2-d1568c22b67b"
       ],
       "detected_license_expression": "apache-2.0",
       "detected_license_expression_spdx": "Apache-2.0",
@@ -5133,7 +5586,7 @@
       "is_script": false,
       "package_data": [],
       "for_packages": [
-        "pkg:maven/commons-cli/commons-cli@1.11.0?uuid=b9deee21-2198-4b9e-9797-00568ad8544e"
+        "pkg:maven/commons-cli/commons-cli@1.11.0?uuid=23b3e4d2-f5b0-42f8-b5a2-d1568c22b67b"
       ],
       "detected_license_expression": null,
       "detected_license_expression_spdx": null,
@@ -5173,7 +5626,7 @@
       "is_script": false,
       "package_data": [],
       "for_packages": [
-        "pkg:maven/commons-cli/commons-cli@1.11.0?uuid=b9deee21-2198-4b9e-9797-00568ad8544e"
+        "pkg:maven/commons-cli/commons-cli@1.11.0?uuid=23b3e4d2-f5b0-42f8-b5a2-d1568c22b67b"
       ],
       "detected_license_expression": null,
       "detected_license_expression_spdx": null,
@@ -5213,7 +5666,7 @@
       "is_script": false,
       "package_data": [],
       "for_packages": [
-        "pkg:maven/commons-cli/commons-cli@1.11.0?uuid=b9deee21-2198-4b9e-9797-00568ad8544e"
+        "pkg:maven/commons-cli/commons-cli@1.11.0?uuid=23b3e4d2-f5b0-42f8-b5a2-d1568c22b67b"
       ],
       "detected_license_expression": null,
       "detected_license_expression_spdx": null,
@@ -5253,7 +5706,7 @@
       "is_script": false,
       "package_data": [],
       "for_packages": [
-        "pkg:maven/commons-cli/commons-cli@1.11.0?uuid=b9deee21-2198-4b9e-9797-00568ad8544e"
+        "pkg:maven/commons-cli/commons-cli@1.11.0?uuid=23b3e4d2-f5b0-42f8-b5a2-d1568c22b67b"
       ],
       "detected_license_expression": null,
       "detected_license_expression_spdx": null,
@@ -5293,7 +5746,7 @@
       "is_script": false,
       "package_data": [],
       "for_packages": [
-        "pkg:maven/commons-cli/commons-cli@1.11.0?uuid=b9deee21-2198-4b9e-9797-00568ad8544e"
+        "pkg:maven/commons-cli/commons-cli@1.11.0?uuid=23b3e4d2-f5b0-42f8-b5a2-d1568c22b67b"
       ],
       "detected_license_expression": null,
       "detected_license_expression_spdx": null,
@@ -5333,7 +5786,7 @@
       "is_script": false,
       "package_data": [],
       "for_packages": [
-        "pkg:maven/commons-cli/commons-cli@1.11.0?uuid=b9deee21-2198-4b9e-9797-00568ad8544e"
+        "pkg:maven/commons-cli/commons-cli@1.11.0?uuid=23b3e4d2-f5b0-42f8-b5a2-d1568c22b67b"
       ],
       "detected_license_expression": "apache-2.0",
       "detected_license_expression_spdx": "Apache-2.0",
@@ -5452,7 +5905,7 @@
       "is_script": false,
       "package_data": [],
       "for_packages": [
-        "pkg:maven/commons-cli/commons-cli@1.11.0?uuid=b9deee21-2198-4b9e-9797-00568ad8544e"
+        "pkg:maven/commons-cli/commons-cli@1.11.0?uuid=23b3e4d2-f5b0-42f8-b5a2-d1568c22b67b"
       ],
       "detected_license_expression": null,
       "detected_license_expression_spdx": null,
@@ -5492,7 +5945,7 @@
       "is_script": false,
       "package_data": [],
       "for_packages": [
-        "pkg:maven/commons-cli/commons-cli@1.11.0?uuid=b9deee21-2198-4b9e-9797-00568ad8544e"
+        "pkg:maven/commons-cli/commons-cli@1.11.0?uuid=23b3e4d2-f5b0-42f8-b5a2-d1568c22b67b"
       ],
       "detected_license_expression": "apache-2.0",
       "detected_license_expression_spdx": "Apache-2.0",
@@ -5560,7 +6013,7 @@
       "is_script": true,
       "package_data": [],
       "for_packages": [
-        "pkg:maven/commons-cli/commons-cli@1.11.0?uuid=b9deee21-2198-4b9e-9797-00568ad8544e"
+        "pkg:maven/commons-cli/commons-cli@1.11.0?uuid=23b3e4d2-f5b0-42f8-b5a2-d1568c22b67b"
       ],
       "detected_license_expression": null,
       "detected_license_expression_spdx": null,
@@ -5606,7 +6059,7 @@
       "is_script": false,
       "package_data": [],
       "for_packages": [
-        "pkg:maven/commons-cli/commons-cli@1.11.0?uuid=b9deee21-2198-4b9e-9797-00568ad8544e"
+        "pkg:maven/commons-cli/commons-cli@1.11.0?uuid=23b3e4d2-f5b0-42f8-b5a2-d1568c22b67b"
       ],
       "detected_license_expression": "apache-2.0",
       "detected_license_expression_spdx": "Apache-2.0",
@@ -5674,7 +6127,7 @@
       "is_script": false,
       "package_data": [],
       "for_packages": [
-        "pkg:maven/commons-cli/commons-cli@1.11.0?uuid=b9deee21-2198-4b9e-9797-00568ad8544e"
+        "pkg:maven/commons-cli/commons-cli@1.11.0?uuid=23b3e4d2-f5b0-42f8-b5a2-d1568c22b67b"
       ],
       "detected_license_expression": null,
       "detected_license_expression_spdx": null,
@@ -5714,7 +6167,7 @@
       "is_script": false,
       "package_data": [],
       "for_packages": [
-        "pkg:maven/commons-cli/commons-cli@1.11.0?uuid=b9deee21-2198-4b9e-9797-00568ad8544e"
+        "pkg:maven/commons-cli/commons-cli@1.11.0?uuid=23b3e4d2-f5b0-42f8-b5a2-d1568c22b67b"
       ],
       "detected_license_expression": null,
       "detected_license_expression_spdx": null,
@@ -5754,7 +6207,7 @@
       "is_script": false,
       "package_data": [],
       "for_packages": [
-        "pkg:maven/commons-cli/commons-cli@1.11.0?uuid=b9deee21-2198-4b9e-9797-00568ad8544e"
+        "pkg:maven/commons-cli/commons-cli@1.11.0?uuid=23b3e4d2-f5b0-42f8-b5a2-d1568c22b67b"
       ],
       "detected_license_expression": null,
       "detected_license_expression_spdx": null,
@@ -5794,7 +6247,7 @@
       "is_script": false,
       "package_data": [],
       "for_packages": [
-        "pkg:maven/commons-cli/commons-cli@1.11.0?uuid=b9deee21-2198-4b9e-9797-00568ad8544e"
+        "pkg:maven/commons-cli/commons-cli@1.11.0?uuid=23b3e4d2-f5b0-42f8-b5a2-d1568c22b67b"
       ],
       "detected_license_expression": null,
       "detected_license_expression_spdx": null,
@@ -5834,7 +6287,7 @@
       "is_script": false,
       "package_data": [],
       "for_packages": [
-        "pkg:maven/commons-cli/commons-cli@1.11.0?uuid=b9deee21-2198-4b9e-9797-00568ad8544e"
+        "pkg:maven/commons-cli/commons-cli@1.11.0?uuid=23b3e4d2-f5b0-42f8-b5a2-d1568c22b67b"
       ],
       "detected_license_expression": null,
       "detected_license_expression_spdx": null,
@@ -5874,7 +6327,7 @@
       "is_script": false,
       "package_data": [],
       "for_packages": [
-        "pkg:maven/commons-cli/commons-cli@1.11.0?uuid=b9deee21-2198-4b9e-9797-00568ad8544e"
+        "pkg:maven/commons-cli/commons-cli@1.11.0?uuid=23b3e4d2-f5b0-42f8-b5a2-d1568c22b67b"
       ],
       "detected_license_expression": "apache-2.0",
       "detected_license_expression_spdx": "Apache-2.0",
@@ -5947,7 +6400,7 @@
       "is_script": false,
       "package_data": [],
       "for_packages": [
-        "pkg:maven/commons-cli/commons-cli@1.11.0?uuid=b9deee21-2198-4b9e-9797-00568ad8544e"
+        "pkg:maven/commons-cli/commons-cli@1.11.0?uuid=23b3e4d2-f5b0-42f8-b5a2-d1568c22b67b"
       ],
       "detected_license_expression": "apache-2.0",
       "detected_license_expression_spdx": "Apache-2.0",
@@ -6015,7 +6468,7 @@
       "is_script": false,
       "package_data": [],
       "for_packages": [
-        "pkg:maven/commons-cli/commons-cli@1.11.0?uuid=b9deee21-2198-4b9e-9797-00568ad8544e"
+        "pkg:maven/commons-cli/commons-cli@1.11.0?uuid=23b3e4d2-f5b0-42f8-b5a2-d1568c22b67b"
       ],
       "detected_license_expression": "apache-2.0",
       "detected_license_expression_spdx": "Apache-2.0",
@@ -6083,7 +6536,7 @@
       "is_script": false,
       "package_data": [],
       "for_packages": [
-        "pkg:maven/commons-cli/commons-cli@1.11.0?uuid=b9deee21-2198-4b9e-9797-00568ad8544e"
+        "pkg:maven/commons-cli/commons-cli@1.11.0?uuid=23b3e4d2-f5b0-42f8-b5a2-d1568c22b67b"
       ],
       "detected_license_expression": "apache-2.0",
       "detected_license_expression_spdx": "Apache-2.0",
@@ -6151,7 +6604,7 @@
       "is_script": false,
       "package_data": [],
       "for_packages": [
-        "pkg:maven/commons-cli/commons-cli@1.11.0?uuid=b9deee21-2198-4b9e-9797-00568ad8544e"
+        "pkg:maven/commons-cli/commons-cli@1.11.0?uuid=23b3e4d2-f5b0-42f8-b5a2-d1568c22b67b"
       ],
       "detected_license_expression": "apache-2.0",
       "detected_license_expression_spdx": "Apache-2.0",
@@ -6224,7 +6677,7 @@
       "is_script": false,
       "package_data": [],
       "for_packages": [
-        "pkg:maven/commons-cli/commons-cli@1.11.0?uuid=b9deee21-2198-4b9e-9797-00568ad8544e"
+        "pkg:maven/commons-cli/commons-cli@1.11.0?uuid=23b3e4d2-f5b0-42f8-b5a2-d1568c22b67b"
       ],
       "detected_license_expression": "apache-2.0",
       "detected_license_expression_spdx": "Apache-2.0",
@@ -6297,7 +6750,7 @@
       "is_script": false,
       "package_data": [],
       "for_packages": [
-        "pkg:maven/commons-cli/commons-cli@1.11.0?uuid=b9deee21-2198-4b9e-9797-00568ad8544e"
+        "pkg:maven/commons-cli/commons-cli@1.11.0?uuid=23b3e4d2-f5b0-42f8-b5a2-d1568c22b67b"
       ],
       "detected_license_expression": null,
       "detected_license_expression_spdx": null,
@@ -6337,7 +6790,7 @@
       "is_script": false,
       "package_data": [],
       "for_packages": [
-        "pkg:maven/commons-cli/commons-cli@1.11.0?uuid=b9deee21-2198-4b9e-9797-00568ad8544e"
+        "pkg:maven/commons-cli/commons-cli@1.11.0?uuid=23b3e4d2-f5b0-42f8-b5a2-d1568c22b67b"
       ],
       "detected_license_expression": "apache-2.0",
       "detected_license_expression_spdx": "Apache-2.0",
@@ -6476,7 +6929,7 @@
       "is_script": false,
       "package_data": [],
       "for_packages": [
-        "pkg:maven/commons-cli/commons-cli@1.11.0?uuid=b9deee21-2198-4b9e-9797-00568ad8544e"
+        "pkg:maven/commons-cli/commons-cli@1.11.0?uuid=23b3e4d2-f5b0-42f8-b5a2-d1568c22b67b"
       ],
       "detected_license_expression": "apache-2.0",
       "detected_license_expression_spdx": "Apache-2.0",
@@ -6580,7 +7033,7 @@
       "is_script": false,
       "package_data": [],
       "for_packages": [
-        "pkg:maven/commons-cli/commons-cli@1.11.0?uuid=b9deee21-2198-4b9e-9797-00568ad8544e"
+        "pkg:maven/commons-cli/commons-cli@1.11.0?uuid=23b3e4d2-f5b0-42f8-b5a2-d1568c22b67b"
       ],
       "detected_license_expression": "apache-2.0",
       "detected_license_expression_spdx": "Apache-2.0",
@@ -6714,7 +7167,7 @@
       "is_script": false,
       "package_data": [],
       "for_packages": [
-        "pkg:maven/commons-cli/commons-cli@1.11.0?uuid=b9deee21-2198-4b9e-9797-00568ad8544e"
+        "pkg:maven/commons-cli/commons-cli@1.11.0?uuid=23b3e4d2-f5b0-42f8-b5a2-d1568c22b67b"
       ],
       "detected_license_expression": "apache-2.0",
       "detected_license_expression_spdx": "Apache-2.0",
@@ -6928,7 +7381,7 @@
       "is_script": false,
       "package_data": [],
       "for_packages": [
-        "pkg:maven/commons-cli/commons-cli@1.11.0?uuid=b9deee21-2198-4b9e-9797-00568ad8544e"
+        "pkg:maven/commons-cli/commons-cli@1.11.0?uuid=23b3e4d2-f5b0-42f8-b5a2-d1568c22b67b"
       ],
       "detected_license_expression": "apache-2.0",
       "detected_license_expression_spdx": "Apache-2.0",
@@ -7017,7 +7470,7 @@
       "is_script": false,
       "package_data": [],
       "for_packages": [
-        "pkg:maven/commons-cli/commons-cli@1.11.0?uuid=b9deee21-2198-4b9e-9797-00568ad8544e"
+        "pkg:maven/commons-cli/commons-cli@1.11.0?uuid=23b3e4d2-f5b0-42f8-b5a2-d1568c22b67b"
       ],
       "detected_license_expression": "apache-2.0",
       "detected_license_expression_spdx": "Apache-2.0",
@@ -7106,7 +7559,7 @@
       "is_script": false,
       "package_data": [],
       "for_packages": [
-        "pkg:maven/commons-cli/commons-cli@1.11.0?uuid=b9deee21-2198-4b9e-9797-00568ad8544e"
+        "pkg:maven/commons-cli/commons-cli@1.11.0?uuid=23b3e4d2-f5b0-42f8-b5a2-d1568c22b67b"
       ],
       "detected_license_expression": "apache-2.0",
       "detected_license_expression_spdx": "Apache-2.0",
@@ -7195,7 +7648,7 @@
       "is_script": false,
       "package_data": [],
       "for_packages": [
-        "pkg:maven/commons-cli/commons-cli@1.11.0?uuid=b9deee21-2198-4b9e-9797-00568ad8544e"
+        "pkg:maven/commons-cli/commons-cli@1.11.0?uuid=23b3e4d2-f5b0-42f8-b5a2-d1568c22b67b"
       ],
       "detected_license_expression": "apache-2.0",
       "detected_license_expression_spdx": "Apache-2.0",
@@ -7284,7 +7737,7 @@
       "is_script": false,
       "package_data": [],
       "for_packages": [
-        "pkg:maven/commons-cli/commons-cli@1.11.0?uuid=b9deee21-2198-4b9e-9797-00568ad8544e"
+        "pkg:maven/commons-cli/commons-cli@1.11.0?uuid=23b3e4d2-f5b0-42f8-b5a2-d1568c22b67b"
       ],
       "detected_license_expression": "apache-2.0",
       "detected_license_expression_spdx": "Apache-2.0",
@@ -7373,7 +7826,7 @@
       "is_script": false,
       "package_data": [],
       "for_packages": [
-        "pkg:maven/commons-cli/commons-cli@1.11.0?uuid=b9deee21-2198-4b9e-9797-00568ad8544e"
+        "pkg:maven/commons-cli/commons-cli@1.11.0?uuid=23b3e4d2-f5b0-42f8-b5a2-d1568c22b67b"
       ],
       "detected_license_expression": "apache-2.0",
       "detected_license_expression_spdx": "Apache-2.0",
@@ -7462,7 +7915,7 @@
       "is_script": false,
       "package_data": [],
       "for_packages": [
-        "pkg:maven/commons-cli/commons-cli@1.11.0?uuid=b9deee21-2198-4b9e-9797-00568ad8544e"
+        "pkg:maven/commons-cli/commons-cli@1.11.0?uuid=23b3e4d2-f5b0-42f8-b5a2-d1568c22b67b"
       ],
       "detected_license_expression": "apache-2.0",
       "detected_license_expression_spdx": "Apache-2.0",
@@ -7546,7 +7999,7 @@
       "is_script": false,
       "package_data": [],
       "for_packages": [
-        "pkg:maven/commons-cli/commons-cli@1.11.0?uuid=b9deee21-2198-4b9e-9797-00568ad8544e"
+        "pkg:maven/commons-cli/commons-cli@1.11.0?uuid=23b3e4d2-f5b0-42f8-b5a2-d1568c22b67b"
       ],
       "detected_license_expression": null,
       "detected_license_expression_spdx": null,
@@ -7586,7 +8039,7 @@
       "is_script": false,
       "package_data": [],
       "for_packages": [
-        "pkg:maven/commons-cli/commons-cli@1.11.0?uuid=b9deee21-2198-4b9e-9797-00568ad8544e"
+        "pkg:maven/commons-cli/commons-cli@1.11.0?uuid=23b3e4d2-f5b0-42f8-b5a2-d1568c22b67b"
       ],
       "detected_license_expression": null,
       "detected_license_expression_spdx": null,
@@ -7626,7 +8079,7 @@
       "is_script": false,
       "package_data": [],
       "for_packages": [
-        "pkg:maven/commons-cli/commons-cli@1.11.0?uuid=b9deee21-2198-4b9e-9797-00568ad8544e"
+        "pkg:maven/commons-cli/commons-cli@1.11.0?uuid=23b3e4d2-f5b0-42f8-b5a2-d1568c22b67b"
       ],
       "detected_license_expression": null,
       "detected_license_expression_spdx": null,
@@ -7666,7 +8119,7 @@
       "is_script": false,
       "package_data": [],
       "for_packages": [
-        "pkg:maven/commons-cli/commons-cli@1.11.0?uuid=b9deee21-2198-4b9e-9797-00568ad8544e"
+        "pkg:maven/commons-cli/commons-cli@1.11.0?uuid=23b3e4d2-f5b0-42f8-b5a2-d1568c22b67b"
       ],
       "detected_license_expression": null,
       "detected_license_expression_spdx": null,
@@ -7706,7 +8159,7 @@
       "is_script": false,
       "package_data": [],
       "for_packages": [
-        "pkg:maven/commons-cli/commons-cli@1.11.0?uuid=b9deee21-2198-4b9e-9797-00568ad8544e"
+        "pkg:maven/commons-cli/commons-cli@1.11.0?uuid=23b3e4d2-f5b0-42f8-b5a2-d1568c22b67b"
       ],
       "detected_license_expression": null,
       "detected_license_expression_spdx": null,
@@ -7746,7 +8199,7 @@
       "is_script": false,
       "package_data": [],
       "for_packages": [
-        "pkg:maven/commons-cli/commons-cli@1.11.0?uuid=b9deee21-2198-4b9e-9797-00568ad8544e"
+        "pkg:maven/commons-cli/commons-cli@1.11.0?uuid=23b3e4d2-f5b0-42f8-b5a2-d1568c22b67b"
       ],
       "detected_license_expression": null,
       "detected_license_expression_spdx": null,
@@ -7786,7 +8239,7 @@
       "is_script": false,
       "package_data": [],
       "for_packages": [
-        "pkg:maven/commons-cli/commons-cli@1.11.0?uuid=b9deee21-2198-4b9e-9797-00568ad8544e"
+        "pkg:maven/commons-cli/commons-cli@1.11.0?uuid=23b3e4d2-f5b0-42f8-b5a2-d1568c22b67b"
       ],
       "detected_license_expression": "apache-2.0",
       "detected_license_expression_spdx": "Apache-2.0",
@@ -7854,7 +8307,7 @@
       "is_script": false,
       "package_data": [],
       "for_packages": [
-        "pkg:maven/commons-cli/commons-cli@1.11.0?uuid=b9deee21-2198-4b9e-9797-00568ad8544e"
+        "pkg:maven/commons-cli/commons-cli@1.11.0?uuid=23b3e4d2-f5b0-42f8-b5a2-d1568c22b67b"
       ],
       "detected_license_expression": "apache-2.0",
       "detected_license_expression_spdx": "Apache-2.0",
@@ -7922,7 +8375,7 @@
       "is_script": false,
       "package_data": [],
       "for_packages": [
-        "pkg:maven/commons-cli/commons-cli@1.11.0?uuid=b9deee21-2198-4b9e-9797-00568ad8544e"
+        "pkg:maven/commons-cli/commons-cli@1.11.0?uuid=23b3e4d2-f5b0-42f8-b5a2-d1568c22b67b"
       ],
       "detected_license_expression": "apache-2.0",
       "detected_license_expression_spdx": "Apache-2.0",
@@ -7996,7 +8449,7 @@
       "is_script": false,
       "package_data": [],
       "for_packages": [
-        "pkg:maven/commons-cli/commons-cli@1.11.0?uuid=b9deee21-2198-4b9e-9797-00568ad8544e"
+        "pkg:maven/commons-cli/commons-cli@1.11.0?uuid=23b3e4d2-f5b0-42f8-b5a2-d1568c22b67b"
       ],
       "detected_license_expression": "apache-2.0",
       "detected_license_expression_spdx": "Apache-2.0",
@@ -8064,7 +8517,7 @@
       "is_script": false,
       "package_data": [],
       "for_packages": [
-        "pkg:maven/commons-cli/commons-cli@1.11.0?uuid=b9deee21-2198-4b9e-9797-00568ad8544e"
+        "pkg:maven/commons-cli/commons-cli@1.11.0?uuid=23b3e4d2-f5b0-42f8-b5a2-d1568c22b67b"
       ],
       "detected_license_expression": "apache-2.0",
       "detected_license_expression_spdx": "Apache-2.0",
@@ -8132,7 +8585,7 @@
       "is_script": false,
       "package_data": [],
       "for_packages": [
-        "pkg:maven/commons-cli/commons-cli@1.11.0?uuid=b9deee21-2198-4b9e-9797-00568ad8544e"
+        "pkg:maven/commons-cli/commons-cli@1.11.0?uuid=23b3e4d2-f5b0-42f8-b5a2-d1568c22b67b"
       ],
       "detected_license_expression": "apache-2.0",
       "detected_license_expression_spdx": "Apache-2.0",
@@ -8200,7 +8653,7 @@
       "is_script": false,
       "package_data": [],
       "for_packages": [
-        "pkg:maven/commons-cli/commons-cli@1.11.0?uuid=b9deee21-2198-4b9e-9797-00568ad8544e"
+        "pkg:maven/commons-cli/commons-cli@1.11.0?uuid=23b3e4d2-f5b0-42f8-b5a2-d1568c22b67b"
       ],
       "detected_license_expression": "apache-2.0",
       "detected_license_expression_spdx": "Apache-2.0",
@@ -8273,7 +8726,7 @@
       "is_script": false,
       "package_data": [],
       "for_packages": [
-        "pkg:maven/commons-cli/commons-cli@1.11.0?uuid=b9deee21-2198-4b9e-9797-00568ad8544e"
+        "pkg:maven/commons-cli/commons-cli@1.11.0?uuid=23b3e4d2-f5b0-42f8-b5a2-d1568c22b67b"
       ],
       "detected_license_expression": "apache-2.0",
       "detected_license_expression_spdx": "Apache-2.0",
@@ -8341,7 +8794,7 @@
       "is_script": false,
       "package_data": [],
       "for_packages": [
-        "pkg:maven/commons-cli/commons-cli@1.11.0?uuid=b9deee21-2198-4b9e-9797-00568ad8544e"
+        "pkg:maven/commons-cli/commons-cli@1.11.0?uuid=23b3e4d2-f5b0-42f8-b5a2-d1568c22b67b"
       ],
       "detected_license_expression": "apache-2.0",
       "detected_license_expression_spdx": "Apache-2.0",
@@ -8409,7 +8862,7 @@
       "is_script": false,
       "package_data": [],
       "for_packages": [
-        "pkg:maven/commons-cli/commons-cli@1.11.0?uuid=b9deee21-2198-4b9e-9797-00568ad8544e"
+        "pkg:maven/commons-cli/commons-cli@1.11.0?uuid=23b3e4d2-f5b0-42f8-b5a2-d1568c22b67b"
       ],
       "detected_license_expression": "apache-2.0",
       "detected_license_expression_spdx": "Apache-2.0",
@@ -8477,7 +8930,7 @@
       "is_script": false,
       "package_data": [],
       "for_packages": [
-        "pkg:maven/commons-cli/commons-cli@1.11.0?uuid=b9deee21-2198-4b9e-9797-00568ad8544e"
+        "pkg:maven/commons-cli/commons-cli@1.11.0?uuid=23b3e4d2-f5b0-42f8-b5a2-d1568c22b67b"
       ],
       "detected_license_expression": "apache-2.0",
       "detected_license_expression_spdx": "Apache-2.0",
@@ -8545,7 +8998,7 @@
       "is_script": false,
       "package_data": [],
       "for_packages": [
-        "pkg:maven/commons-cli/commons-cli@1.11.0?uuid=b9deee21-2198-4b9e-9797-00568ad8544e"
+        "pkg:maven/commons-cli/commons-cli@1.11.0?uuid=23b3e4d2-f5b0-42f8-b5a2-d1568c22b67b"
       ],
       "detected_license_expression": "apache-2.0",
       "detected_license_expression_spdx": "Apache-2.0",
@@ -8618,7 +9071,7 @@
       "is_script": false,
       "package_data": [],
       "for_packages": [
-        "pkg:maven/commons-cli/commons-cli@1.11.0?uuid=b9deee21-2198-4b9e-9797-00568ad8544e"
+        "pkg:maven/commons-cli/commons-cli@1.11.0?uuid=23b3e4d2-f5b0-42f8-b5a2-d1568c22b67b"
       ],
       "detected_license_expression": "apache-2.0",
       "detected_license_expression_spdx": "Apache-2.0",
@@ -8686,7 +9139,7 @@
       "is_script": false,
       "package_data": [],
       "for_packages": [
-        "pkg:maven/commons-cli/commons-cli@1.11.0?uuid=b9deee21-2198-4b9e-9797-00568ad8544e"
+        "pkg:maven/commons-cli/commons-cli@1.11.0?uuid=23b3e4d2-f5b0-42f8-b5a2-d1568c22b67b"
       ],
       "detected_license_expression": "apache-2.0",
       "detected_license_expression_spdx": "Apache-2.0",
@@ -8754,7 +9207,7 @@
       "is_script": false,
       "package_data": [],
       "for_packages": [
-        "pkg:maven/commons-cli/commons-cli@1.11.0?uuid=b9deee21-2198-4b9e-9797-00568ad8544e"
+        "pkg:maven/commons-cli/commons-cli@1.11.0?uuid=23b3e4d2-f5b0-42f8-b5a2-d1568c22b67b"
       ],
       "detected_license_expression": "apache-2.0",
       "detected_license_expression_spdx": "Apache-2.0",
@@ -8822,7 +9275,7 @@
       "is_script": false,
       "package_data": [],
       "for_packages": [
-        "pkg:maven/commons-cli/commons-cli@1.11.0?uuid=b9deee21-2198-4b9e-9797-00568ad8544e"
+        "pkg:maven/commons-cli/commons-cli@1.11.0?uuid=23b3e4d2-f5b0-42f8-b5a2-d1568c22b67b"
       ],
       "detected_license_expression": "apache-2.0",
       "detected_license_expression_spdx": "Apache-2.0",
@@ -8890,7 +9343,7 @@
       "is_script": false,
       "package_data": [],
       "for_packages": [
-        "pkg:maven/commons-cli/commons-cli@1.11.0?uuid=b9deee21-2198-4b9e-9797-00568ad8544e"
+        "pkg:maven/commons-cli/commons-cli@1.11.0?uuid=23b3e4d2-f5b0-42f8-b5a2-d1568c22b67b"
       ],
       "detected_license_expression": "apache-2.0",
       "detected_license_expression_spdx": "Apache-2.0",
@@ -8958,7 +9411,7 @@
       "is_script": false,
       "package_data": [],
       "for_packages": [
-        "pkg:maven/commons-cli/commons-cli@1.11.0?uuid=b9deee21-2198-4b9e-9797-00568ad8544e"
+        "pkg:maven/commons-cli/commons-cli@1.11.0?uuid=23b3e4d2-f5b0-42f8-b5a2-d1568c22b67b"
       ],
       "detected_license_expression": "apache-2.0",
       "detected_license_expression_spdx": "Apache-2.0",
@@ -9031,7 +9484,7 @@
       "is_script": false,
       "package_data": [],
       "for_packages": [
-        "pkg:maven/commons-cli/commons-cli@1.11.0?uuid=b9deee21-2198-4b9e-9797-00568ad8544e"
+        "pkg:maven/commons-cli/commons-cli@1.11.0?uuid=23b3e4d2-f5b0-42f8-b5a2-d1568c22b67b"
       ],
       "detected_license_expression": "apache-2.0",
       "detected_license_expression_spdx": "Apache-2.0",
@@ -9099,7 +9552,7 @@
       "is_script": false,
       "package_data": [],
       "for_packages": [
-        "pkg:maven/commons-cli/commons-cli@1.11.0?uuid=b9deee21-2198-4b9e-9797-00568ad8544e"
+        "pkg:maven/commons-cli/commons-cli@1.11.0?uuid=23b3e4d2-f5b0-42f8-b5a2-d1568c22b67b"
       ],
       "detected_license_expression": "apache-2.0",
       "detected_license_expression_spdx": "Apache-2.0",
@@ -9167,7 +9620,7 @@
       "is_script": false,
       "package_data": [],
       "for_packages": [
-        "pkg:maven/commons-cli/commons-cli@1.11.0?uuid=b9deee21-2198-4b9e-9797-00568ad8544e"
+        "pkg:maven/commons-cli/commons-cli@1.11.0?uuid=23b3e4d2-f5b0-42f8-b5a2-d1568c22b67b"
       ],
       "detected_license_expression": "apache-2.0",
       "detected_license_expression_spdx": "Apache-2.0",
@@ -9240,7 +9693,7 @@
       "is_script": false,
       "package_data": [],
       "for_packages": [
-        "pkg:maven/commons-cli/commons-cli@1.11.0?uuid=b9deee21-2198-4b9e-9797-00568ad8544e"
+        "pkg:maven/commons-cli/commons-cli@1.11.0?uuid=23b3e4d2-f5b0-42f8-b5a2-d1568c22b67b"
       ],
       "detected_license_expression": "apache-2.0",
       "detected_license_expression_spdx": "Apache-2.0",
@@ -9308,7 +9761,7 @@
       "is_script": false,
       "package_data": [],
       "for_packages": [
-        "pkg:maven/commons-cli/commons-cli@1.11.0?uuid=b9deee21-2198-4b9e-9797-00568ad8544e"
+        "pkg:maven/commons-cli/commons-cli@1.11.0?uuid=23b3e4d2-f5b0-42f8-b5a2-d1568c22b67b"
       ],
       "detected_license_expression": "apache-2.0",
       "detected_license_expression_spdx": "Apache-2.0",
@@ -9376,7 +9829,7 @@
       "is_script": false,
       "package_data": [],
       "for_packages": [
-        "pkg:maven/commons-cli/commons-cli@1.11.0?uuid=b9deee21-2198-4b9e-9797-00568ad8544e"
+        "pkg:maven/commons-cli/commons-cli@1.11.0?uuid=23b3e4d2-f5b0-42f8-b5a2-d1568c22b67b"
       ],
       "detected_license_expression": "apache-2.0",
       "detected_license_expression_spdx": "Apache-2.0",
@@ -9444,7 +9897,7 @@
       "is_script": false,
       "package_data": [],
       "for_packages": [
-        "pkg:maven/commons-cli/commons-cli@1.11.0?uuid=b9deee21-2198-4b9e-9797-00568ad8544e"
+        "pkg:maven/commons-cli/commons-cli@1.11.0?uuid=23b3e4d2-f5b0-42f8-b5a2-d1568c22b67b"
       ],
       "detected_license_expression": "apache-2.0",
       "detected_license_expression_spdx": "Apache-2.0",
@@ -9517,7 +9970,7 @@
       "is_script": false,
       "package_data": [],
       "for_packages": [
-        "pkg:maven/commons-cli/commons-cli@1.11.0?uuid=b9deee21-2198-4b9e-9797-00568ad8544e"
+        "pkg:maven/commons-cli/commons-cli@1.11.0?uuid=23b3e4d2-f5b0-42f8-b5a2-d1568c22b67b"
       ],
       "detected_license_expression": "apache-2.0",
       "detected_license_expression_spdx": "Apache-2.0",
@@ -9585,7 +10038,7 @@
       "is_script": false,
       "package_data": [],
       "for_packages": [
-        "pkg:maven/commons-cli/commons-cli@1.11.0?uuid=b9deee21-2198-4b9e-9797-00568ad8544e"
+        "pkg:maven/commons-cli/commons-cli@1.11.0?uuid=23b3e4d2-f5b0-42f8-b5a2-d1568c22b67b"
       ],
       "detected_license_expression": "apache-2.0",
       "detected_license_expression_spdx": "Apache-2.0",
@@ -9653,7 +10106,7 @@
       "is_script": false,
       "package_data": [],
       "for_packages": [
-        "pkg:maven/commons-cli/commons-cli@1.11.0?uuid=b9deee21-2198-4b9e-9797-00568ad8544e"
+        "pkg:maven/commons-cli/commons-cli@1.11.0?uuid=23b3e4d2-f5b0-42f8-b5a2-d1568c22b67b"
       ],
       "detected_license_expression": "apache-2.0",
       "detected_license_expression_spdx": "Apache-2.0",
@@ -9721,7 +10174,7 @@
       "is_script": false,
       "package_data": [],
       "for_packages": [
-        "pkg:maven/commons-cli/commons-cli@1.11.0?uuid=b9deee21-2198-4b9e-9797-00568ad8544e"
+        "pkg:maven/commons-cli/commons-cli@1.11.0?uuid=23b3e4d2-f5b0-42f8-b5a2-d1568c22b67b"
       ],
       "detected_license_expression": "apache-2.0",
       "detected_license_expression_spdx": "Apache-2.0",
@@ -9789,7 +10242,7 @@
       "is_script": false,
       "package_data": [],
       "for_packages": [
-        "pkg:maven/commons-cli/commons-cli@1.11.0?uuid=b9deee21-2198-4b9e-9797-00568ad8544e"
+        "pkg:maven/commons-cli/commons-cli@1.11.0?uuid=23b3e4d2-f5b0-42f8-b5a2-d1568c22b67b"
       ],
       "detected_license_expression": null,
       "detected_license_expression_spdx": null,
@@ -9829,7 +10282,7 @@
       "is_script": false,
       "package_data": [],
       "for_packages": [
-        "pkg:maven/commons-cli/commons-cli@1.11.0?uuid=b9deee21-2198-4b9e-9797-00568ad8544e"
+        "pkg:maven/commons-cli/commons-cli@1.11.0?uuid=23b3e4d2-f5b0-42f8-b5a2-d1568c22b67b"
       ],
       "detected_license_expression": "apache-2.0",
       "detected_license_expression_spdx": "Apache-2.0",
@@ -9897,7 +10350,7 @@
       "is_script": false,
       "package_data": [],
       "for_packages": [
-        "pkg:maven/commons-cli/commons-cli@1.11.0?uuid=b9deee21-2198-4b9e-9797-00568ad8544e"
+        "pkg:maven/commons-cli/commons-cli@1.11.0?uuid=23b3e4d2-f5b0-42f8-b5a2-d1568c22b67b"
       ],
       "detected_license_expression": "apache-2.0",
       "detected_license_expression_spdx": "Apache-2.0",
@@ -9965,7 +10418,7 @@
       "is_script": false,
       "package_data": [],
       "for_packages": [
-        "pkg:maven/commons-cli/commons-cli@1.11.0?uuid=b9deee21-2198-4b9e-9797-00568ad8544e"
+        "pkg:maven/commons-cli/commons-cli@1.11.0?uuid=23b3e4d2-f5b0-42f8-b5a2-d1568c22b67b"
       ],
       "detected_license_expression": "apache-2.0",
       "detected_license_expression_spdx": "Apache-2.0",
@@ -10038,7 +10491,7 @@
       "is_script": false,
       "package_data": [],
       "for_packages": [
-        "pkg:maven/commons-cli/commons-cli@1.11.0?uuid=b9deee21-2198-4b9e-9797-00568ad8544e"
+        "pkg:maven/commons-cli/commons-cli@1.11.0?uuid=23b3e4d2-f5b0-42f8-b5a2-d1568c22b67b"
       ],
       "detected_license_expression": "apache-2.0",
       "detected_license_expression_spdx": "Apache-2.0",
@@ -10116,7 +10569,7 @@
       "is_script": false,
       "package_data": [],
       "for_packages": [
-        "pkg:maven/commons-cli/commons-cli@1.11.0?uuid=b9deee21-2198-4b9e-9797-00568ad8544e"
+        "pkg:maven/commons-cli/commons-cli@1.11.0?uuid=23b3e4d2-f5b0-42f8-b5a2-d1568c22b67b"
       ],
       "detected_license_expression": "apache-2.0",
       "detected_license_expression_spdx": "Apache-2.0",
@@ -10189,7 +10642,7 @@
       "is_script": false,
       "package_data": [],
       "for_packages": [
-        "pkg:maven/commons-cli/commons-cli@1.11.0?uuid=b9deee21-2198-4b9e-9797-00568ad8544e"
+        "pkg:maven/commons-cli/commons-cli@1.11.0?uuid=23b3e4d2-f5b0-42f8-b5a2-d1568c22b67b"
       ],
       "detected_license_expression": "apache-2.0",
       "detected_license_expression_spdx": "Apache-2.0",
@@ -10257,7 +10710,7 @@
       "is_script": false,
       "package_data": [],
       "for_packages": [
-        "pkg:maven/commons-cli/commons-cli@1.11.0?uuid=b9deee21-2198-4b9e-9797-00568ad8544e"
+        "pkg:maven/commons-cli/commons-cli@1.11.0?uuid=23b3e4d2-f5b0-42f8-b5a2-d1568c22b67b"
       ],
       "detected_license_expression": "apache-2.0",
       "detected_license_expression_spdx": "Apache-2.0",
@@ -10325,7 +10778,7 @@
       "is_script": false,
       "package_data": [],
       "for_packages": [
-        "pkg:maven/commons-cli/commons-cli@1.11.0?uuid=b9deee21-2198-4b9e-9797-00568ad8544e"
+        "pkg:maven/commons-cli/commons-cli@1.11.0?uuid=23b3e4d2-f5b0-42f8-b5a2-d1568c22b67b"
       ],
       "detected_license_expression": "apache-2.0",
       "detected_license_expression_spdx": "Apache-2.0",
@@ -10393,7 +10846,7 @@
       "is_script": false,
       "package_data": [],
       "for_packages": [
-        "pkg:maven/commons-cli/commons-cli@1.11.0?uuid=b9deee21-2198-4b9e-9797-00568ad8544e"
+        "pkg:maven/commons-cli/commons-cli@1.11.0?uuid=23b3e4d2-f5b0-42f8-b5a2-d1568c22b67b"
       ],
       "detected_license_expression": "apache-2.0",
       "detected_license_expression_spdx": "Apache-2.0",
@@ -10461,7 +10914,7 @@
       "is_script": false,
       "package_data": [],
       "for_packages": [
-        "pkg:maven/commons-cli/commons-cli@1.11.0?uuid=b9deee21-2198-4b9e-9797-00568ad8544e"
+        "pkg:maven/commons-cli/commons-cli@1.11.0?uuid=23b3e4d2-f5b0-42f8-b5a2-d1568c22b67b"
       ],
       "detected_license_expression": "apache-2.0",
       "detected_license_expression_spdx": "Apache-2.0",
@@ -10529,7 +10982,7 @@
       "is_script": false,
       "package_data": [],
       "for_packages": [
-        "pkg:maven/commons-cli/commons-cli@1.11.0?uuid=b9deee21-2198-4b9e-9797-00568ad8544e"
+        "pkg:maven/commons-cli/commons-cli@1.11.0?uuid=23b3e4d2-f5b0-42f8-b5a2-d1568c22b67b"
       ],
       "detected_license_expression": "apache-2.0",
       "detected_license_expression_spdx": "Apache-2.0",
@@ -10597,7 +11050,7 @@
       "is_script": false,
       "package_data": [],
       "for_packages": [
-        "pkg:maven/commons-cli/commons-cli@1.11.0?uuid=b9deee21-2198-4b9e-9797-00568ad8544e"
+        "pkg:maven/commons-cli/commons-cli@1.11.0?uuid=23b3e4d2-f5b0-42f8-b5a2-d1568c22b67b"
       ],
       "detected_license_expression": "apache-2.0",
       "detected_license_expression_spdx": "Apache-2.0",
@@ -10665,7 +11118,7 @@
       "is_script": false,
       "package_data": [],
       "for_packages": [
-        "pkg:maven/commons-cli/commons-cli@1.11.0?uuid=b9deee21-2198-4b9e-9797-00568ad8544e"
+        "pkg:maven/commons-cli/commons-cli@1.11.0?uuid=23b3e4d2-f5b0-42f8-b5a2-d1568c22b67b"
       ],
       "detected_license_expression": null,
       "detected_license_expression_spdx": null,
@@ -10705,7 +11158,7 @@
       "is_script": false,
       "package_data": [],
       "for_packages": [
-        "pkg:maven/commons-cli/commons-cli@1.11.0?uuid=b9deee21-2198-4b9e-9797-00568ad8544e"
+        "pkg:maven/commons-cli/commons-cli@1.11.0?uuid=23b3e4d2-f5b0-42f8-b5a2-d1568c22b67b"
       ],
       "detected_license_expression": "apache-2.0",
       "detected_license_expression_spdx": "Apache-2.0",
@@ -10773,7 +11226,7 @@
       "is_script": false,
       "package_data": [],
       "for_packages": [
-        "pkg:maven/commons-cli/commons-cli@1.11.0?uuid=b9deee21-2198-4b9e-9797-00568ad8544e"
+        "pkg:maven/commons-cli/commons-cli@1.11.0?uuid=23b3e4d2-f5b0-42f8-b5a2-d1568c22b67b"
       ],
       "detected_license_expression": "apache-2.0",
       "detected_license_expression_spdx": "Apache-2.0",
@@ -10841,7 +11294,7 @@
       "is_script": false,
       "package_data": [],
       "for_packages": [
-        "pkg:maven/commons-cli/commons-cli@1.11.0?uuid=b9deee21-2198-4b9e-9797-00568ad8544e"
+        "pkg:maven/commons-cli/commons-cli@1.11.0?uuid=23b3e4d2-f5b0-42f8-b5a2-d1568c22b67b"
       ],
       "detected_license_expression": "apache-2.0",
       "detected_license_expression_spdx": "Apache-2.0",
@@ -10909,7 +11362,7 @@
       "is_script": false,
       "package_data": [],
       "for_packages": [
-        "pkg:maven/commons-cli/commons-cli@1.11.0?uuid=b9deee21-2198-4b9e-9797-00568ad8544e"
+        "pkg:maven/commons-cli/commons-cli@1.11.0?uuid=23b3e4d2-f5b0-42f8-b5a2-d1568c22b67b"
       ],
       "detected_license_expression": "apache-2.0",
       "detected_license_expression_spdx": "Apache-2.0",
@@ -10977,7 +11430,7 @@
       "is_script": false,
       "package_data": [],
       "for_packages": [
-        "pkg:maven/commons-cli/commons-cli@1.11.0?uuid=b9deee21-2198-4b9e-9797-00568ad8544e"
+        "pkg:maven/commons-cli/commons-cli@1.11.0?uuid=23b3e4d2-f5b0-42f8-b5a2-d1568c22b67b"
       ],
       "detected_license_expression": "apache-2.0",
       "detected_license_expression_spdx": "Apache-2.0",
@@ -11045,7 +11498,7 @@
       "is_script": false,
       "package_data": [],
       "for_packages": [
-        "pkg:maven/commons-cli/commons-cli@1.11.0?uuid=b9deee21-2198-4b9e-9797-00568ad8544e"
+        "pkg:maven/commons-cli/commons-cli@1.11.0?uuid=23b3e4d2-f5b0-42f8-b5a2-d1568c22b67b"
       ],
       "detected_license_expression": null,
       "detected_license_expression_spdx": null,
@@ -11085,7 +11538,7 @@
       "is_script": false,
       "package_data": [],
       "for_packages": [
-        "pkg:maven/commons-cli/commons-cli@1.11.0?uuid=b9deee21-2198-4b9e-9797-00568ad8544e"
+        "pkg:maven/commons-cli/commons-cli@1.11.0?uuid=23b3e4d2-f5b0-42f8-b5a2-d1568c22b67b"
       ],
       "detected_license_expression": "apache-2.0",
       "detected_license_expression_spdx": "Apache-2.0",
@@ -11158,7 +11611,7 @@
       "is_script": false,
       "package_data": [],
       "for_packages": [
-        "pkg:maven/commons-cli/commons-cli@1.11.0?uuid=b9deee21-2198-4b9e-9797-00568ad8544e"
+        "pkg:maven/commons-cli/commons-cli@1.11.0?uuid=23b3e4d2-f5b0-42f8-b5a2-d1568c22b67b"
       ],
       "detected_license_expression": "apache-2.0",
       "detected_license_expression_spdx": "Apache-2.0",
@@ -11226,7 +11679,7 @@
       "is_script": false,
       "package_data": [],
       "for_packages": [
-        "pkg:maven/commons-cli/commons-cli@1.11.0?uuid=b9deee21-2198-4b9e-9797-00568ad8544e"
+        "pkg:maven/commons-cli/commons-cli@1.11.0?uuid=23b3e4d2-f5b0-42f8-b5a2-d1568c22b67b"
       ],
       "detected_license_expression": "apache-2.0",
       "detected_license_expression_spdx": "Apache-2.0",
@@ -11294,7 +11747,7 @@
       "is_script": false,
       "package_data": [],
       "for_packages": [
-        "pkg:maven/commons-cli/commons-cli@1.11.0?uuid=b9deee21-2198-4b9e-9797-00568ad8544e"
+        "pkg:maven/commons-cli/commons-cli@1.11.0?uuid=23b3e4d2-f5b0-42f8-b5a2-d1568c22b67b"
       ],
       "detected_license_expression": "apache-2.0",
       "detected_license_expression_spdx": "Apache-2.0",
@@ -11362,7 +11815,7 @@
       "is_script": false,
       "package_data": [],
       "for_packages": [
-        "pkg:maven/commons-cli/commons-cli@1.11.0?uuid=b9deee21-2198-4b9e-9797-00568ad8544e"
+        "pkg:maven/commons-cli/commons-cli@1.11.0?uuid=23b3e4d2-f5b0-42f8-b5a2-d1568c22b67b"
       ],
       "detected_license_expression": "apache-2.0",
       "detected_license_expression_spdx": "Apache-2.0",
@@ -11430,7 +11883,7 @@
       "is_script": false,
       "package_data": [],
       "for_packages": [
-        "pkg:maven/commons-cli/commons-cli@1.11.0?uuid=b9deee21-2198-4b9e-9797-00568ad8544e"
+        "pkg:maven/commons-cli/commons-cli@1.11.0?uuid=23b3e4d2-f5b0-42f8-b5a2-d1568c22b67b"
       ],
       "detected_license_expression": null,
       "detected_license_expression_spdx": null,
@@ -11470,7 +11923,7 @@
       "is_script": false,
       "package_data": [],
       "for_packages": [
-        "pkg:maven/commons-cli/commons-cli@1.11.0?uuid=b9deee21-2198-4b9e-9797-00568ad8544e"
+        "pkg:maven/commons-cli/commons-cli@1.11.0?uuid=23b3e4d2-f5b0-42f8-b5a2-d1568c22b67b"
       ],
       "detected_license_expression": null,
       "detected_license_expression_spdx": null,
@@ -11510,7 +11963,7 @@
       "is_script": false,
       "package_data": [],
       "for_packages": [
-        "pkg:maven/commons-cli/commons-cli@1.11.0?uuid=b9deee21-2198-4b9e-9797-00568ad8544e"
+        "pkg:maven/commons-cli/commons-cli@1.11.0?uuid=23b3e4d2-f5b0-42f8-b5a2-d1568c22b67b"
       ],
       "detected_license_expression": null,
       "detected_license_expression_spdx": null,
@@ -11550,7 +12003,7 @@
       "is_script": false,
       "package_data": [],
       "for_packages": [
-        "pkg:maven/commons-cli/commons-cli@1.11.0?uuid=b9deee21-2198-4b9e-9797-00568ad8544e"
+        "pkg:maven/commons-cli/commons-cli@1.11.0?uuid=23b3e4d2-f5b0-42f8-b5a2-d1568c22b67b"
       ],
       "detected_license_expression": null,
       "detected_license_expression_spdx": null,
@@ -11590,7 +12043,7 @@
       "is_script": false,
       "package_data": [],
       "for_packages": [
-        "pkg:maven/commons-cli/commons-cli@1.11.0?uuid=b9deee21-2198-4b9e-9797-00568ad8544e"
+        "pkg:maven/commons-cli/commons-cli@1.11.0?uuid=23b3e4d2-f5b0-42f8-b5a2-d1568c22b67b"
       ],
       "detected_license_expression": null,
       "detected_license_expression_spdx": null,
@@ -11630,7 +12083,7 @@
       "is_script": false,
       "package_data": [],
       "for_packages": [
-        "pkg:maven/commons-cli/commons-cli@1.11.0?uuid=b9deee21-2198-4b9e-9797-00568ad8544e"
+        "pkg:maven/commons-cli/commons-cli@1.11.0?uuid=23b3e4d2-f5b0-42f8-b5a2-d1568c22b67b"
       ],
       "detected_license_expression": "apache-2.0",
       "detected_license_expression_spdx": "Apache-2.0",
